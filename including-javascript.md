@@ -1,12 +1,4 @@
-# JavaScript Intro
-
-
-
-There are three core components that all web pages are built on. We're now at the point in the course where we are going to focus on JavaScript, and how it adds interactivity to a web site.
-
-![](.gitbook/assets/image%20%281%29.png)
-
-JavaScript is a programming language that was invented specifically to run within a web browser. It is the **ONLY** programming language that works within a web browser.  
+# Including JavaScript
 
 ### Two Methods for Including JavaScript
 
@@ -55,7 +47,7 @@ For example, if a script element is inside the head element, and it set the back
 </body>
 ```
 
-![](.gitbook/assets/image%20%282%29.png)
+![](.gitbook/assets/image%20%288%29.png)
 
 ```markup
 <body>
@@ -67,5 +59,5 @@ For example, if a script element is inside the head element, and it set the back
 </body>
 ```
 
-![](.gitbook/assets/image%20%283%29.png)
+![](.gitbook/assets/image%20%287%29.png)
 
