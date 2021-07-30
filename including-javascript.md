@@ -47,7 +47,7 @@ For example, if a script element is inside the head element, and it set the back
 </body>
 ```
 
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 ```markup
 <body>
@@ -59,5 +59,5 @@ For example, if a script element is inside the head element, and it set the back
 </body>
 ```
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 

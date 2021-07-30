@@ -49,6 +49,20 @@ else if (x==y) {
 }
 ```
 
+The code above is syntactically correct, but it can be simplified. We do not need to have a final test for the last case, since it is the only path possible if the other two cases are false.
+
+```javascript
+if (x<y) {
+    alert('x is less than y');
+}
+else if (x>y) {
+    alert('x is greater than y');
+}
+else {
+    alert('x is equal to y');
+}
+```
+
 {% hint style="info" %}
 Operators: Assignment vs. Equality
 
@@ -57,5 +71,37 @@ A long time ago, the early programming languages adopted the `=` symbol to mean 
 Scratch uses the `=` symbol to test for equality instead of assignment, which is more intuitive for users new to programming. This is because in their visual programming language the assignment process is done with the set block and so there isn't an explicit assignment operator and the = symbol is available to use.  
 {% endhint %}
 
+### Logical Operators
 
+If your test condition involves more than one criteria, then you can use logical operators to string them together to build a larger boolean test.
+
+![](../.gitbook/assets/image%20%2811%29.png)
+
+In JavaScript the **logical and operator** is two ampersands **&&.**
+
+```javascript
+const age = prompt('What is your age?');
+if (age>12 && age<65) {
+    alert('The cost is $100');
+}
+else {
+    alert('The cost is $50');
+}
+```
+
+The if condition could have been rewritten using the or logical operator.
+
+In JavaScript the **logical or operator** is two pipe symbols **\|\|**.
+
+![](../.gitbook/assets/image%20%284%29.png)
+
+```javascript
+const age = prompt('What is your age?');
+if (age<12 || age>65) {
+    alert('The cost is $50');
+}
+else {
+    alert('The cost is $100');
+}
+```
 
