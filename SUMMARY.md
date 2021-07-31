@@ -7,6 +7,7 @@
   * [Variables](javascript-intro/variables.md)
   * [Conditionals](javascript-intro/conditionals.md)
   * [Loops](javascript-intro/loops.md)
+  * [Abstraction](javascript-intro/abstraction.md)
   * [Operators](javascript-intro/operators.md)
 * [Including JavaScript](including-javascript.md)
 * [Untitled](untitled.md)

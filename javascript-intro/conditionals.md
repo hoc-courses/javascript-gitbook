@@ -75,7 +75,7 @@ Scratch uses the `=` symbol to test for equality instead of assignment, which is
 
 If your test condition involves more than one criteria, then you can use logical operators to string them together to build a larger boolean test.
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 In JavaScript the **logical and operator** is two ampersands **&&.**
 
@@ -93,7 +93,7 @@ The if condition could have been rewritten using the or logical operator.
 
 In JavaScript the **logical or operator** is two pipe symbols **\|\|**.
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 ```javascript
 const age = prompt('What is your age?');

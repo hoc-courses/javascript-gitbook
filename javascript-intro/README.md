@@ -6,13 +6,13 @@ There are three core components that all web pages are built on. We're now at th
 
 JavaScript is a programming language that was invented specifically to run within a web browser. It is the **ONLY** programming language that works within a web browser.  
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 The video we watched of the Harvard CS50 course demonstrated the graphical Scratch programming language. JavaScript has many of the same capabilities as Scratch, but it is a text-based language, so it's a little less friendly.
 
 We can compare a lot of the programming features in JavaScript to blocks we’ve already seen and used in Scratch. The details of the syntax are far less important than the ideas, which we’ve already been introduced to.
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 ```markup
 <html>
