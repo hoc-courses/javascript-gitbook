@@ -8,7 +8,7 @@ In a web application, your JavaScript code can similarly respond to events from 
 
 ```markup
 <body>
-    <button onclick="alert('hello, world');">
+    <button onclick="alert('hello, world');">Click me</button>
 </body>
 ```
 

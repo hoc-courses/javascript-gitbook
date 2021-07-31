@@ -1,6 +1,10 @@
 # Abstraction
 
-Let's start in Scratch to demonstrate this concept. We're going to write a sequence of steps to draw a square.
+The main goal of abstraction is to handle complexity by hiding unnecessary details from the user. That enables the user to implement more complex logic on top of the provided abstraction without understanding or even thinking about all the hidden complexity.
+
+Abstraction doesn't only relate to computer programs. Your coffee machine is an abstraction. You know how to make a cup of coffee by using the machine, but you do not need to know how it works internally. 
+
+But, we're here to talk about abstraction in the context of computer programming. Let's start in Scratch to demonstrate this concept. We're going to write a sequence of steps to draw a square.
 
 First, we'll assume that we're setup with a pen to draw. 
 

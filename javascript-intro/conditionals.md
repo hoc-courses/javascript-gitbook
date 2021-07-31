@@ -4,11 +4,9 @@
 
 A condition looks like a fork in the road which allows you to choose a path to take based on some test.
 
-Here is the Scratch example translated to JavaScript. 
-
 ![](../.gitbook/assets/image%20%2821%29.png)
 
-In the JavaScript code we're introducing a new piece of syntax, the curly braces, which used to surround the code that will be executed within the if block if the test is true. 
+Here is the Scratch example translated to JavaScript. 
 
 ```javascript
 if (x<y) {
@@ -16,9 +14,11 @@ if (x<y) {
 }
 ```
 
+In the JavaScript code we're introducing a new piece of syntax, the curly braces, which are used to surround the code that will be executed within the `if` block if the condition is true. 
+
 ### If Else
 
-We can also add an else block to the if statement if we want to follow an alternate code path when the test is false.
+We can also add an else block to the `if` statement if we want to follow an alternate code path when the condition is false.
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
@@ -49,7 +49,7 @@ else if (x==y) {
 }
 ```
 
-The code above is syntactically correct, but it can be simplified. We do not need to have a final test for the last case, since it is the only path possible if the other two cases are false.
+The code above is syntactically correct, but it can be simplified. We do not need to have a final condition for the last case, since it is the only path possible if the other two conditions are false.
 
 ```javascript
 if (x<y) {
@@ -73,7 +73,7 @@ Scratch uses the `=` symbol to test for equality instead of assignment, which is
 
 ### Logical Operators
 
-If your test condition involves more than one criteria, then you can use logical operators to string them together to build a larger boolean test.
+If your condition involves more than one criteria, then you can use logical operators to string them together to build a larger boolean condition.
 
 ![](../.gitbook/assets/image%20%2826%29.png)
 
@@ -89,7 +89,7 @@ else {
 }
 ```
 
-The if condition could have been rewritten using the or logical operator.
+The `if` condition could have been rewritten using the or logical operator.
 
 In JavaScript the **logical or operator** is two pipe symbols **\|\|**.
 
