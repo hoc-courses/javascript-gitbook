@@ -6,7 +6,7 @@ A condition looks like a fork in the road which allows you to choose a path to t
 
 Here is the Scratch example translated to JavaScript. 
 
-![](https://lh3.googleusercontent.com/0yRj3rZbZTw97NEr3DGDC3-RzakdOIVvJRpYbglx9ZCSjWKGl7mvBJmMYBVnMKM-gwpEFDV4K0OSmVykzc3wfFX4EfHfco_VFiNppOWELwnDGyfqHzdGF_4ztkP2-TbBt6g_3YX0JQ)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 In the JavaScript code we're introducing a new piece of syntax, the curly braces, which used to surround the code that will be executed within the if block if the test is true. 
 
@@ -20,7 +20,7 @@ if (x<y) {
 
 We can also add an else block to the if statement if we want to follow an alternate code path when the test is false.
 
-![](https://lh5.googleusercontent.com/1YkZBjx68oSdlxN-mSndriiw-BRX6B6ZYrds-7fiXQ-dxQ1b5POz3JU6pFq0bbEhOYbXPomdbylSZQvKbsNOrRr4sPa6PpQltA0mff2tOG1yHvi09YHJgtMxmBTUbL_WuNUU6Nr11A)
+![](../.gitbook/assets/image%20%289%29.png)
 
 ```javascript
 if (x<y) {
@@ -75,7 +75,7 @@ Scratch uses the `=` symbol to test for equality instead of assignment, which is
 
 If your test condition involves more than one criteria, then you can use logical operators to string them together to build a larger boolean test.
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 In JavaScript the **logical and operator** is two ampersands **&&.**
 
@@ -93,7 +93,7 @@ The if condition could have been rewritten using the or logical operator.
 
 In JavaScript the **logical or operator** is two pipe symbols **\|\|**.
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 ```javascript
 const age = prompt('What is your age?');
