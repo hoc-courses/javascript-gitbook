@@ -22,9 +22,9 @@ There is still room for improvement. There is repetition in this series of steps
 
 ![](../.gitbook/assets/image%20%2816%29.png)
 
-There's a further improvement that we can make. We can create a code block, or function, of our own named drawSquare, that will do these steps and then we can just call the function. 
+There's a further improvement that we can make. We can create a code block, or function, of our own named `drawSquare`, that will do these steps and then we can just call the function. 
 
-Then we don't have to think about the implementation details of how the square is doing its job. We can just call it and count on it to fulfill the contract of what it says it will do. This is the essence of a function.
+Now we don't have to think about the implementation details of how the square is doing its job. We can just call it and count on it to fulfill the contract of what it says it will do. The function hides the complexity of drawing a square.
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
@@ -49,4 +49,6 @@ function drawPolygon(numSides, sideLength) {
 drawPolygon(4, 100);
 drawpPolygon(3, 100);
 ```
+
+The goal for your code will be to abstract as much of functionality as possible into re-usable functions.
 
