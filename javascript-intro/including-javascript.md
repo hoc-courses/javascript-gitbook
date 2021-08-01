@@ -47,7 +47,7 @@ For example, if a script element is inside the head element, and it set the back
 </body>
 ```
 
-![](.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 ```markup
 <body>
@@ -59,5 +59,9 @@ For example, if a script element is inside the head element, and it set the back
 </body>
 ```
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
+
+{% embed url="https://www.htmldog.com/guides/javascript/beginner/makingstuffhappen/" %}
+
+
 
