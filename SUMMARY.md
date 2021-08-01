@@ -1,8 +1,11 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Intro to Programming](README.md)
+* [The DRY Principle](the-dry-principle.md)
+* [BJC](bjc.md)
 * [JavaScript Intro](javascript-intro/README.md)
   * [Including JavaScript](javascript-intro/including-javascript.md)
+  * [Your First JavaScript](javascript-intro/your-first-javascript.md)
   * [Functions](javascript-intro/untitled-1.md)
   * [Data Types](javascript-intro/data-types.md)
   * [Variables](javascript-intro/variables.md)

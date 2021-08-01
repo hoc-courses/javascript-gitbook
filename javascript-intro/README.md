@@ -2,7 +2,7 @@
 
 There are three core components that all web pages are built on. We're now at the point in the course where we are going to focus on the JavaScript programming language, and how it is used to add interactivity to a web site.
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
 In the early competition between major web browsers,  a developer at Netscape, invented JavaScript to make web pages more dynamic. It was designed to be accessible to web developers and graphic designers, not your typical software engineer, so that they could add interactivity, such as small animations.
 
