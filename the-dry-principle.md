@@ -24,11 +24,11 @@ Now let's draw a series of squares.
 
 Obviously, this is violating the DRY principle. There are a few common programming techniques to allow you to adhere to the DRY principle.
 
-#### Refactoring
+### Refactoring
 
 Refactoring is when you take some code that is functionally correct and modify it to do the same task more efficiently.
 
-#### Loops
+### Loops
 
 One way to reduce redundant code is to introduce a loop. In Snap! there is the repeat block in the palette within the **controls** category, which will repeat a series of instructions a specified number of times. 
 
@@ -36,7 +36,7 @@ In the code below, we refactored the code into few lines of code by utilizing th
 
 ![](.gitbook/assets/image%20%2813%29.png)
 
-#### Procedures
+### Procedures
 
 A **procedure** is a named sequence of instructions that may take inputs and may return a value. Different languages call them by different names. Some languages call procedures _methods_ or _functions_. 
 
@@ -54,7 +54,7 @@ and procedures that tells the computer to do something without returning a value
 
 Procedures have a few benefits.
 
-#### Abstraction
+### Abstraction
 
 The main goal of abstraction is to handle complexity by hiding unnecessary details from the user. That enables the user to implement more complex logic on top of the provided abstraction without understanding or even thinking about all the hidden complexity.
 
@@ -68,7 +68,7 @@ And now the code on the left has been simplified to the code on the right. We no
 
 ![](.gitbook/assets/image%20%2815%29.png)
 
-#### Re-use
+### Re-use
 
 Another important feature of writing procedures is that they can receive input that allows them to work in a wider range of circumstances.
 
