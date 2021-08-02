@@ -8,7 +8,11 @@
 * We only need to “call” or “invoke” it. 
 * This is called **Procedural Abstraction**.
 
+
+
 {% embed url="http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/readings/01-functions-slides.pdf" %}
 
+### Resources
 
+[Functions](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/readings/02-functions-video.mp4)
 

@@ -8,16 +8,18 @@
 
 * [The DRY Principal](dry-principle.md)
 * [Algorithms](algorithms.md)
-* [Functions](functions-1.md)
 
 ## JavaScript Intro <a id="javascript-intro-1"></a>
 
 ---
 
-* [BJC](bjc.md)
+* [BJC](bjc/README.md)
+  * [Functions](bjc/functions-1.md)
+* [Lab 1: Welcome to Visual Programming](lab-1-welcome-to-visual-programming.md)
+* [LAB - Build Your Own Blocks](lab-build-your-own-blocks.md)
+* [Lab - Build a Wall](lab-build-a-wall.md)
 * [bjc for loop with counter](bjc-for-loop-with-counter.md)
 * [bjc guessing game](bjc-guessing-game/README.md)
-  * [Lab 1: Welcome to Visual Programming](bjc-guessing-game/lab-1-welcome-to-visual-programming.md)
   * [2.1 Developing a Number Guessing Game with Script Variables- Lab Instructions](bjc-guessing-game/2.1-developing-a-number-guessing-game-with-script-variables-lab-instructions.md)
   * [2.1.2 - Debugging and Extending Your Number Guessing Game](bjc-guessing-game/2.1.2-debugging-and-extending-your-number-guessing-game.md)
   * [2.1.3 Keeping Score with Global Variables](bjc-guessing-game/2.1.3-keeping-score-with-global-variables.md)
