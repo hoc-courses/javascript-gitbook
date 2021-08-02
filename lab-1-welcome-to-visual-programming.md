@@ -4,15 +4,15 @@ Open up Snap! at [https://snap.berkeley.edu/snap/](https://snap.berkeley.edu/sna
 
 Let’s first look at the IDE \(Integrated Development Environment\). You should see the following arrangement of regions in the window:
 
-![](.gitbook/assets/1%20%281%29.png)
+![](.gitbook/assets/1%20%282%29.png)
 
 A Snap! program consists of one or more scripts, each of which is made of blocks. Here’s a typical script:
 
-![](.gitbook/assets/2%20%281%29.png)
+![](.gitbook/assets/2%20%282%29.png)
 
 The five blocks that make up this script have three different colors, corresponding to three of the eight palettes in which blocks can be found. The palette area at the left edge of the window shows one palette at a time, chosen with the eight buttons just above the palette area. In this script, the gold blocks are from the Control palette; the green block is from the Pen palette; and the blue blocks are from the Motion palette. A script is assembled by dragging blocks from a palette into the scripting area in the middle part of the window. Blocks snap together \(hence the name Snap! for the language\) when you drag a block so that its indentation is near the tab of the one above it:
 
-![](.gitbook/assets/3%20%281%29.png)
+![](.gitbook/assets/3%20%282%29.png)
 
 The white horizontal line is a signal that if you let go of the green block it will snap into the gold one.
 
@@ -34,7 +34,7 @@ The number 10 in the move block above is called an input to the block. By clicki
 
 | **Term** | **Example/Description** |
 | :--- | :--- |
-| **Tabs \(for blocks\)** | ![](.gitbook/assets/10.png) |
+| **Tabs \(for blocks\)** | ![](.gitbook/assets/10%20%281%29.png) |
 | **Tabs \(for sprite\)** | ![](.gitbook/assets/11%20%281%29.png) |
 | **Blocks** | ![](.gitbook/assets/12%20%281%29.png) |
 | **Script** | ![](.gitbook/assets/13.png) |

@@ -14,7 +14,7 @@ We are going to teach the computer how to draw a square using a block named draw
 
 * This will open up the make a block dialog box. Now, you get to choose which tab the block should go into. Our block is going to draw a square, so let us choose Motion.
 
-![](.gitbook/assets/1.png)
+![](.gitbook/assets/1%20%281%29.png)
 
 * When we selected Motion, the block became blue. We now have the option of making blocks of different shapes. Right now, however, we are just going to make a \(regular\) command block.
 
@@ -22,7 +22,7 @@ We are going to teach the computer how to draw a square using a block named draw
 
 * When we click OK, we should see the block editor below.
 
-![](.gitbook/assets/3.png)
+![](.gitbook/assets/3%20%281%29.png)
 
 * Use the blocks from the regular menus to create a script that draws a square, as shown below.
 
@@ -44,7 +44,7 @@ You have created a block that draws a square, but it only draws a square where e
 
 * In the Block Editor, notice that when you move the mouse over the top row of the new block, some plus signs \(+\) show up. When you click on these plus signs, you can add more text or arguments. When you click on the text between the plus signs, you can delete or modify that text. Click on the plus sign at the far right as shown below:
 
-![](.gitbook/assets/7.png)
+![](.gitbook/assets/7%20%281%29.png)
 
 * When you click on the plus sign on the far right, you should get the following dialog box. With this dialog box, we can select if we want to add input \(orange\) or more text \(blue\). We want to add the input size, so we type size, selectInput Name and click OK.
 
@@ -52,11 +52,11 @@ You have created a block that draws a square, but it only draws a square where e
 
 * Now, we have a variable inside our block definition.
 
-![](.gitbook/assets/9%20%281%29.png)
+![](.gitbook/assets/9%20%282%29.png)
 
 * Drag the variable size down into the move block. Whenever we need a new copy of a variable, we just grab the copy from that variable in the top row.
 
-![](.gitbook/assets/10%20%281%29.png)
+![](.gitbook/assets/10%20%282%29.png)
 
 * When we click OK, we will see that our draw square block now takes an argument. We can put different numbers in the blank and draw squares of different sizes!
 
@@ -230,4 +230,8 @@ Note: Whenever you need to refer to a number in the program, use a variable. Thi
 In summary, you should implement the following blocks:
 
 ![](.gitbook/assets/36.png)
+
+{% embed url="http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab2.pptx" %}
+
+
 
