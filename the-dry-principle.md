@@ -16,7 +16,7 @@ Writing/copying and pasting the same code or logic again and again.
 
 Let's start out with a simple example. We want to draw a square. Here are the individual steps for drawing a square.
 
-![](.gitbook/assets/image%20%2844%29.png)
+![](.gitbook/assets/image%20%2845%29.png)
 
 Now let's draw a series of squares.
 
@@ -42,9 +42,9 @@ A **procedure** is a named sequence of instructions that may take inputs and may
 
 In Snap!, procedures that return a value are called **Reporters**. 
 
-![](.gitbook/assets/image%20%2848%29.png)
+![](.gitbook/assets/image%20%2849%29.png)
 
-![](.gitbook/assets/image%20%2847%29.png)
+![](.gitbook/assets/image%20%2848%29.png)
 
 and procedures that tells the computer to do something without returning a value are called **Commands**.
 
