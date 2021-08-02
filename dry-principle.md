@@ -16,7 +16,7 @@ Writing/copying and pasting the same code or logic again and again.
 
 Let's start out with a simple example. We want to draw a square. Here are the individual steps for drawing a square.
 
-![](.gitbook/assets/image%20%2862%29.png)
+![](.gitbook/assets/image%20%2863%29.png)
 
 Now let's draw a series of squares.
 
@@ -46,15 +46,15 @@ A **procedure** is a named sequence of instructions that may take inputs and may
 
 In Snap!, procedures that return a value are called **Reporters**. 
 
-![](.gitbook/assets/image%20%2867%29.png)
+![](.gitbook/assets/image%20%2868%29.png)
 
-![](.gitbook/assets/image%20%2866%29.png)
+![](.gitbook/assets/image%20%2867%29.png)
 
 and procedures that tells the computer to do something without returning a value are called **Commands**.
 
-![](.gitbook/assets/image%20%2844%29.png)
+![](.gitbook/assets/image%20%2845%29.png)
 
-![](.gitbook/assets/image%20%2841%29.png)
+![](.gitbook/assets/image%20%2842%29.png)
 
 Procedures have a few benefits.
 
@@ -64,7 +64,7 @@ The main goal of abstraction is to handle complexity by hiding unnecessary detai
 
 We are going to apply that principle here to create a **command** block \(no return value\) that will be responsible for performing the instructions necessary to draw a square.
 
-![](.gitbook/assets/image%20%2835%29.png)
+![](.gitbook/assets/image%20%2836%29.png)
 
 ![](.gitbook/assets/image%20%2826%29.png)
 
@@ -86,5 +86,5 @@ Once the parameters are added, they can be used within the procedure.
 
 And now we have our finished algorithm to draw a series of three squares.
 
-![](.gitbook/assets/image%20%2837%29.png)
+![](.gitbook/assets/image%20%2838%29.png)
 

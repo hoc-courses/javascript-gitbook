@@ -14,6 +14,9 @@
 ---
 
 * [BJC](bjc/README.md)
+  * [Variables](bjc/variables.md)
+  * [Loops](bjc/loops.md)
+  * [Operators](bjc/operators.md)
   * [Functions](bjc/functions-1.md)
   * [Conditionals](bjc/conditionals.md)
   * [Lists](bjc/lists/README.md)
@@ -21,8 +24,8 @@
   * [Introduction to Lists](bjc/introduction-to-lists.md)
   * [Higher Order Functions](bjc/higher-order-functions.md)
   * [Swap Two List Values](bjc/swap-two-list-values.md)
-* [Lab 1: Welcome to Visual Programming](lab-1-welcome-to-visual-programming.md)
-* [LAB - Build Your Own Blocks](lab-build-your-own-blocks.md)
+* [Lab - Snap Intro](lab-1-welcome-to-visual-programming.md)
+* [Lab - Build Your Own Blocks](lab-build-your-own-blocks.md)
 * [Lab - Build a Wall](lab-build-a-wall.md)
 * [Lab 3 - Random Numbers and Conditionals](lab-3-random-numbers-and-conditionals.md)
 * [Hangman](hangman.md)

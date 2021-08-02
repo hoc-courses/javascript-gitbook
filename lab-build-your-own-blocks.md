@@ -1,6 +1,6 @@
-# LAB - Build Your Own Blocks
+# Lab - Build Your Own Blocks
 
-As you have seen, SNAP is a powerful language that has a substantial repository of useful blocks for a variety of purposes. However, as you may have noticed, SNAP does not have all the blocks that you may need, and often, it would prove useful if we could create new blocks.
+As you have seen, Snap! is a powerful language that has a substantial repository of useful blocks for a variety of purposes. However, as you may have noticed, Snap! does not have all the blocks that you may need, and often, it would prove useful if we could create new blocks.
 
 There are three types of function blocks you can create in Snap. ****
 
