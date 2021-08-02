@@ -39,7 +39,6 @@
   * [Introduction to Lists](bjc/introduction-to-lists.md)
   * [Higher Order Functions](bjc/higher-order-functions.md)
   * [Swap Two List Values](bjc/swap-two-list-values.md)
-  * [Drawing](bjc/drawing.md)
 * [Lab 2 - Build Your Own Blocks](lab-2-build-your-own-blocks.md)
 * [Music Project](music-project.md)
 * [JavaScript Intro](javascript-intro/README.md)
