@@ -16,7 +16,7 @@ Writing/copying and pasting the same code or logic again and again.
 
 Let's start out with a simple example. We want to draw a square. Here is an algorithm for drawing a square.
 
-![](../.gitbook/assets/image%20%28106%29.png)
+![](../.gitbook/assets/image%20%28107%29.png)
 
 Now let's draw a series of squares.
 
@@ -60,7 +60,7 @@ The main goal of abstraction is to handle complexity by hiding unnecessary detai
 
 We are going to apply that principle here to create a **command** block \(no return value\) that will be responsible for performing the instructions necessary to draw a square.
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 ![](../.gitbook/assets/image%20%2843%29.png)
 
@@ -84,5 +84,5 @@ Once the parameters are added, they can be used within the procedure by dragging
 
 And now we have our finished algorithm to draw a series of three squares.
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 

@@ -8,14 +8,14 @@ In Snap!, predicates are represented by hexagonal blocks. **They compute the** _
 
 Predicates ask a true/false question such as "Is this sprite touching the sprite called 'Leader'?"
 
-![](../.gitbook/assets/image%20%2883%29.png)
+![](../.gitbook/assets/image%20%2884%29.png)
 
  Use one or more of the following _relational operators_ to create a script that lets you use your mouse to write on the stage in two colors depending on the mouse's position on the stage.  
 ![less than, equal to, and greater than predicate blocks](https://bjc.edc.org/bjc-r/img/2-complexity/relations.jpg)
 
  Make the sprite draw only if the mouse button is down, so that you can draw disconnected shapes. You'll need to uncheck the "draggable" box above the scripting area before you try this \(so that Snap! doesn't think you are trying to drag the sprite when you click\).
 
-![](../.gitbook/assets/image%20%28109%29.png)
+![](../.gitbook/assets/image%20%28110%29.png)
 
   
 You'll probably want to use the ![mouse down? predicate block](https://bjc.edc.org/bjc-r/img/blocks/mouse-down.png) block, which you can find in the Sensing palette.

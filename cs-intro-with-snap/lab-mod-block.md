@@ -18,9 +18,9 @@ Use `mod` to build a ![is \(\) divisible by \(\) ?](https://bjc.edc.org/bjc-r/im
 Use this `divisible by?` predicate to build a predicate that tests whether its input is even \(divisible by 2\).  
 ![even? \(-22\) reporting true](https://bjc.edc.org/bjc-r/img/2-complexity/even--22-reporting-true.png) ![even? \(7\) reporting false](https://bjc.edc.org/bjc-r/img/2-complexity/even-7-reporting-false.png)
 
- In a later lab, you can use your `even?` block to draw a [brick wall](../dry-principle/lab-build-a-wall.md) because the even and odd numbered rows are different.
+ In a later lab, you can use your `even?` block to draw a [brick wall](lab-build-a-wall.md) because the even and odd numbered rows are different.
 
-![](../.gitbook/assets/image%20%2869%29.png)
+![](../.gitbook/assets/image%20%2870%29.png)
 
 
 

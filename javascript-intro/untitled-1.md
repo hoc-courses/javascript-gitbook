@@ -2,7 +2,7 @@
 
 Functions are blocks of code that we can use in our program to do something. They can be thought of as small actions or verbs for the task that they perform in a program.
 
-![](../.gitbook/assets/image%20%2864%29.png)
+![](../.gitbook/assets/image%20%2865%29.png)
 
 ### Input - Arguments
 

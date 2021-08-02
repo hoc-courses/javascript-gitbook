@@ -22,6 +22,10 @@
 
 #### [https://beautyjoy.github.io/bjc-r/course/cs10\_sp19.html](https://beautyjoy.github.io/bjc-r/course/cs10_sp19.html)
 
+{% embed url="https://bjc.edc.org/Sept2015/bjc-r/cur/programming/2-conditionals-abstraction-testing/1-conditionals/1-getting-started-with-conditionals.html?topic=nyc\_bjc%2F2-conditionals-abstraction.topic&course=bjc4nyc\_2015-2016.html&novideo&noassignment" %}
+
+
+
 #### 
 
 #### Sample Assessment

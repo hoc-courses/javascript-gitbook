@@ -42,7 +42,7 @@ HINT: You will need to determine if there is an even number of rows or an odd nu
 
 Example: if TotalNumberOfRows mod 2 = 0 then the total number of rows is even \(any even number divided by 2 leaves a remainder of 0\). You can use the same logic to determine if the row to be drawn is even or odd \(if RowNumber mod 2 = 0\).
 
-See The [Mod Block](../cs-intro-with-snap/lab-mod-block.md) topic for help.
+See The [Mod Block](lab-mod-block.md) topic for help.
 
 #### At the highest level of abstraction \(level 1\)
 
@@ -57,7 +57,7 @@ In summary, you should implement the following blocks:
 
 ### Resources
 
-![](../.gitbook/assets/image%20%2875%29.png)
+![](../.gitbook/assets/image%20%2876%29.png)
 
 {% embed url="https://youtu.be/bons028VLEU" %}
 
