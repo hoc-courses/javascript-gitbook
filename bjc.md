@@ -14,9 +14,7 @@ Unit 1 Lab 3
 
 
 
-{% embed url="https://sites.google.com/qirtnyc.org/unit1/home" %}
-
-Unit 1 Lab 3
+Unit 1 Lab 3 
 
 {% embed url="https://sites.google.com/qirtnyc.org/unit1/unit-1-lab-3" %}
 
@@ -47,4 +45,12 @@ Unit 3 Lab 1 - Building a brick wall
 ![](.gitbook/assets/image%20%288%29.png)
 
 ![](.gitbook/assets/image%20%2814%29.png)
+
+
+
+![Branch Cycle Animation](https://lh5.googleusercontent.com/fyNskTkdS0DY5pre9fHMoVDJnFVpMMLzJCCs6598uSv2udPuJzM6um3spxqYbUkC7UHjvlMkT1Z2SyqBhDETrN8untZCbXq6VByBFf2h26Kp_ljL4Hz7ddqW7oSqLoAR7Rj8C_0)
+
+
+
+![pinwheel-block](https://lh4.googleusercontent.com/A-B3JLbQfXzjLvzHn80C8OIEp9fkBnkPqB5OdmU-tc_hfbfvZ_qY4YqQxuRyLHYPNR1JOwSaZjIFcA43WbqG7ZB0UNH-th_DVmvuSbgA4x1HJfBpmfVHN0uE_thhTMzxhhl-NJc)
 
