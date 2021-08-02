@@ -14,7 +14,7 @@
 
 Writing/copying and pasting the same code or logic again and again.
 
-Let's start out with a simple example. We want to draw a square. Here are the individual steps for drawing a square.
+Let's start out with a simple example. We want to draw a square. Here is an algorithm for drawing a square.
 
 ![](.gitbook/assets/image%20%2881%29.png)
 
@@ -30,13 +30,15 @@ Refactoring is when you take some code that is functionally correct and modify i
 
 ### Loops
 
-One way to reduce redundant code is to introduce a loop. In Snap! there is the repeat block in the palette within the **controls** category, which will repeat a series of instructions a specified number of times. 
+One way to reduce redundant code is to introduce a loop. In Snap! there is the **repeat** block in the Controls palette, which will repeat a series of instructions a specified number of times. 
 
-In the code below, we refactored the code into fewer lines of code by utilizing the repeat block to execute the same instructions three times.
+In the code below, we refactored the code into fewer instructions by utilizing the repeat block to execute the same instructions three times.
 
 ![](.gitbook/assets/image%20%2829%29.png)
 
-We can further refactor by added another loop nested within the outer repeat loop.
+### Nested Loops
+
+We can further refactor our code by adding another loop nested within the outer repeat loop to repeat the drawing of each side of the square.
 
 ![](.gitbook/assets/image%20%2840%29.png)
 
@@ -44,21 +46,15 @@ We can further refactor by added another loop nested within the outer repeat loo
 
 A **procedure** is a named sequence of instructions that may take inputs and may return a value. Different languages call them by different names. Some languages call procedures _methods_ or _functions_. 
 
-In Snap!, procedures that return a value are called **Reporters**. 
+In Snap!,  you can create a new procedure by **creating a new block**. There are three categories of blocks:
 
-![](.gitbook/assets/image%20%2886%29.png)
-
-![](.gitbook/assets/image%20%2885%29.png)
-
-and procedures that tells the computer to do something without returning a value are called **Commands**.
-
-![](.gitbook/assets/image%20%2857%29.png)
-
-![](.gitbook/assets/image%20%2853%29.png)
+* **commands** -  tells the computer to do something without returning a value.
+* **reporters** - returns a value.
+* **predicates** - a type of reporter, returns either true or false
 
 Procedures have a few benefits.
 
-### Abstraction
+### Procedures allow Abstraction
 
 The main goal of abstraction is to handle complexity by hiding unnecessary details from the user. That enables the user to implement more complex logic on top of the provided abstraction without understanding or even thinking about all the hidden complexity.
 
@@ -70,19 +66,21 @@ We are going to apply that principle here to create a **command** block \(no ret
 
 And now the code has been greatly simplified. We no longer need to think about the individual instructions necessary to draw a square. We can simply use the `drawSquare` command to perform the instructions whenever we need to draw a square.
 
-### Re-use
+### Procedures allow Re-use
 
 Another important feature of writing procedures is that they can receive input that allows them to work in a wider range of circumstances.
 
-In our `drawSquare` command, it currently hard-codes the size of the square. While this works for this particular use-case, it would be more re-usable if it allowed the user to specify the size of the square.
+In our `drawSquare` command, it currently hard-codes the size of the square. While this works for this particular use-case, it would be more re-usable if it allowed the user to specify the size of the square. This is done by adding input variables to a procedure.
 
 Snap! allows the addition of input parameters by clicking on the plus sign in the command's name block.
 
 ![](.gitbook/assets/image%20%2823%29.png)
 
-Once the parameters are added, they can be used within the procedure.
+Once the parameters are added, they can be used within the procedure by dragging them from the parameter list to where they are used.
 
 ![](.gitbook/assets/image%20%2821%29.png)
+
+### A DRY Solution
 
 And now we have our finished algorithm to draw a series of three squares.
 
