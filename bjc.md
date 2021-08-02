@@ -46,5 +46,5 @@ Unit 3 Lab 1 - Building a brick wall
 
 ![](.gitbook/assets/image%20%288%29.png)
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
