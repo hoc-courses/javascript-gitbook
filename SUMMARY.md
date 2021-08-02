@@ -6,7 +6,8 @@
 
 ---
 
-* [The DRY Principal](dry-principle.md)
+* [The DRY Principal](dry-principle/README.md)
+  * [Draw Your Own Square](dry-principle/draw-your-own-square.md)
 * [Algorithms](algorithms.md)
 * [TODO](todo.md)
 
@@ -32,7 +33,6 @@
 * [Lab 2 - Build Your Own Blocks](lab-2-build-your-own-blocks/README.md)
   * [Lab - Build Your Own Blocks](lab-2-build-your-own-blocks/lab-build-your-own-blocks.md)
   * [Lab - Build a Wall](lab-2-build-your-own-blocks/lab-build-a-wall.md)
-  * [Draw Your Own Square](lab-2-build-your-own-blocks/draw-your-own-square.md)
   * [Draw a Polygon](lab-2-build-your-own-blocks/draw-a-polygon.md)
   * [Draw Flower](lab-2-build-your-own-blocks/draw-flower.md)
   * [The Random Block](lab-2-build-your-own-blocks/the-random-block.md)

@@ -1,5 +1,7 @@
 # Draw Your Own Square
 
+### Building a New Block
+
 We are going to teach the computer how to draw a square using a block named `draw square`. Please follow the steps below:
 
 1. Click on `make a block` at the bottom of the `Variables` palette \(or right-click or control-click on the scripting area background and choose "`make a block`"\).![&apos;make a block&apos;](https://beautyjoy.github.io/bjc-r/img/sys/MakeABlock-BYOB.jpg)
@@ -25,7 +27,7 @@ We are going to teach the computer how to draw a square using a block named `dra
 
 Congratulations! You have just created your first custom block.
 
-
+### Adding an Input Variable
 
 You have created a block that draws a square, but only a square in which each side is of length `100` steps. It would be better if you could specify how long you wanted each side to be.
 
@@ -48,4 +50,8 @@ Edit the block to accept an _input_ \(or _argument_\), which tells it the length
 4. Your block title has changed: there is now a variable named `size` at the end of the title.![New variable in the &apos;draw square&apos; block](https://beautyjoy.github.io/bjc-r/img/building-blocks/draw-square-size-unused-argument.png)
 5. In order to use the `size` variable within the `draw square` block, drag the variable `size` down into the move block. Whenever you need a new copy of a variable, just drag another down. \(If you have extra copies you want to get rid of, you can drag the copy all the way to the palette at the left of the Snap_!_ window.\)  Snap_!_ will determine the value of the `size` variable automatically for you whenever you use the `draw square` block in a program.![Adding a variable to the body](https://beautyjoy.github.io/bjc-r/img/building-blocks/draw-square-size-pull-argument.gif)
 6. 7. When you click `OK`, you'll see that the `draw square` block in the scripting area now takes an argument. You can put different numbers in the blank and draw squares of different sizes.![Running the &apos;draw square&apos; block with an argument](https://beautyjoy.github.io/bjc-r/img/prog/draw-square-block-with-arg-BYOB.gif)
+
+### Lab
+
+[Draw Your Own Square](draw-your-own-square.md)
 
