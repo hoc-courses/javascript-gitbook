@@ -2,13 +2,17 @@
 
 * [Intro to Programming](README.md)
 
-## Programming Principles
-
-* [The DRY Principle](programming-principles/the-dry-principle.md)
+## CS Fundamentals
 
 ---
 
+* [The DRY Principal](dry-principle.md)
 * [Algorithms](algorithms.md)
+
+## JavaScript Intro <a id="javascript-intro-1"></a>
+
+---
+
 * [BJC](bjc.md)
 * [JavaScript Intro](javascript-intro/README.md)
   * [Including JavaScript](javascript-intro/including-javascript.md)
