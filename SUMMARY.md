@@ -2,6 +2,7 @@
 
 * [Intro to Programming](README.md)
 * [The DRY Principle](the-dry-principle.md)
+* [Algorithms](algorithms.md)
 * [BJC](bjc.md)
 * [JavaScript Intro](javascript-intro/README.md)
   * [Including JavaScript](javascript-intro/including-javascript.md)
