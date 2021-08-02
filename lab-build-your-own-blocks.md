@@ -1,12 +1,27 @@
 # LAB - Build Your Own Blocks
 
-## Lab- Build Your Own Blocks <a id="lab--build-your-own-blocks"></a>
+As you have seen, SNAP is a powerful language that has a substantial repository of useful blocks for a variety of purposes. However, as you may have noticed, SNAP does not have all the blocks that you may need, and often, it would prove useful if we could create new blocks.
 
-Let’s open up SNAP at [http://snap.berkeley.edu/run](http://snap.berkeley.edu/run)
+There are three types of function blocks you can create in Snap. ****
 
-As you have seen, SNAP/BYOB is a powerful language that has a substantial repository of useful blocks for a variety of purposes. However, as you may have noticed, SNAP/BYOB does not have all the blocks that you may need, and often, it would prove useful if we could create new blocks.
+### **Command**
 
-### Make Your Own Block- A Tutorial <a id="make-your-own-block--a-tutorial"></a>
+* Creates a block that “makes something happen” without a value being returned, such as drawing a square.
+* The same blocks that looks like puzzle pieces. 
+
+### **Reporter**
+
+* Creates a block that reports or returns a value. 
+* These blocks look like some of your operator blocks, such as the `() + ()` block. \(rounded ends\) 
+
+### **Predicate** 
+
+* Creates a block that reports or returns either true or false. 
+* These blocks look like some of your operator blocks, such as the `() < ()` block. \(pointed ends\)
+
+###  <a id="make-your-own-block--a-tutorial"></a>
+
+### Make Your Own Block <a id="make-your-own-block--a-tutorial"></a>
 
 We are going to teach the computer how to draw a square using a block named `draw square`. Please follow the steps below:
 
@@ -18,7 +33,7 @@ We are going to teach the computer how to draw a square using a block named `dra
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-2.png)
 
-* When we selected `Motion`, the block became blue. We now have the option of making blocks of different shapes. Right now, however, we are just going to make a \(regular\) command block.
+* When we selected `Motion`, the block became blue. We now have the option of making blocks of different shapes. Right now, however, we are just going to make a \(regular\) command block, because our block is not going to return a value.
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-3.png)
 
@@ -60,13 +75,13 @@ You have created a block that draws a square, but it only draws a square where e
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-12.png)
 
-* When we click OK, we wll see that our draw square block now takes an argument. We can put different numbers in the blank and draw squares of different sizes!
+* When we click OK, we will see that our draw square block now takes an argument. We can put different numbers in the blank and draw squares of different sizes!
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-14.png)
 
 ### Make a draw shape Block <a id="make-a-draw-shape-block"></a>
 
-Now, you are going to make a block that takes two inputs. We want to create a `draw shape` block that takes a number of sides and a number of pixels for the length of each side. We will call these input arguments `n` and `pixel`. This exercise should be done with a partner, so introduce yourself to your neighbor and get started on the exercise together!
+Now, you are going to make a block that takes two inputs. We want to create a `draw shape` block that takes a number of sides and a number of pixels for the length of each side. We will call these input arguments `n` and `pixel`. 
 
 By the way, you can create the inputs to this block in exactly the same way as we did in the previous section, by clicking on the plus signs to add input; however, you can also type the names of the input as shown below.
 
@@ -84,7 +99,8 @@ We will now make a different kind of block – a _reporter_ block. To demonstrat
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-17.png)
 
-* This should give you a blank Block editor. We need to figure out what should be reported. To keep track of the value to be reported, we are going to make another variable. There are two ways to do this: Use a `Script Variable` block. You can click on the name of the variable and change it to bigger value. Alternatively, you can just report which of the two is larger.
+* This should give you a blank Block editor. We need to figure out what should be reported. To keep track of the value to be reported, we are going to make another variable. 
+* There are two ways to do this: Use a `Script Variable` block. You can click on the name of the variable and change it to bigger value. Alternatively, you can just report which of the two is larger.
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-18.png)
 
@@ -140,7 +156,7 @@ Your challenge is to create the following two blocks. You can use the same proje
 
 ### Predicates <a id="predicates"></a>
 
-We want to make our own predicate, a kind of block that reports either `true` or `false`. We have a “greater than” operator \(\), an “equal” operator \(=\), and a “less than” operator \(&lt;\), but we want a new “greater than or equal to” \(=\) operator.
+We want to make our own predicate, a kind of block that reports either `true` or `false`. We have a “greater than” operator `>`, an “equal” operator `=`, and a “less than” operator`<`, but we want a new “greater than or equal to” `>=` operator.
 
 * We will create the new block and select the `predicate` shape.
 
@@ -150,7 +166,7 @@ We want to make our own predicate, a kind of block that reports either `true` or
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-30.png)
 
-* We can fill that in with a composition of a “greater than”, “or”, and “equal” operators. Make this with your partner and then try it out. Notice that this predicate block reports either `true` or `false`.
+* We can fill that in with a composition of a “greater than”, “or”, and “equal” operators. Make this and then try it out. Notice that this predicate block reports either `true` or `false`.
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-31.png)
 

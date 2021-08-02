@@ -52,7 +52,7 @@ For example, if a script element is inside the head element, and when the script
 </body>
 ```
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 ```markup
 <body>
@@ -64,5 +64,5 @@ For example, if a script element is inside the head element, and when the script
 </body>
 ```
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 
