@@ -2,7 +2,7 @@
 
 We are going to draw this brick wall.
 
-![](.gitbook/assets/34%20%281%29.png)
+![](../.gitbook/assets/34%20%281%29.png)
 
 This project is not just about drawing; it is also about practicing abstraction. You will draw the following brick wall by implementing the blocks listed below.
 
@@ -10,7 +10,7 @@ _Note: You must implement these blocks and adhere to the abstraction described b
 
 There are two kinds of rows in this brick wall:
 
-![](.gitbook/assets/35%20%281%29.png)
+![](../.gitbook/assets/35%20%281%29.png)
 
 The big idea is that there are three levels of abstraction. Start creating your new blocks at Level 3, then create for Level 2 \(using your new blocks from Level 1\), and then create Level 1 using your Level 2 blocks.
 
@@ -49,9 +49,5 @@ Note: Whenever you need to refer to a number in the program, use a variable. Thi
 
 In summary, you should implement the following blocks:
 
-![](.gitbook/assets/36.png)
-
-{% embed url="http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab2.pptx" %}
-
-
+![](../.gitbook/assets/36.png)
 
