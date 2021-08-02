@@ -8,7 +8,7 @@
 
 * [The DRY Principal](dry-principle/README.md)
   * [Lab - Procedures/Blocks](dry-principle/lab-build-your-own-blocks.md)
-  * [Lab - Drawing Polygons](dry-principle/lab-drawing-polygons.md)
+  * [Lab - Refactoring](dry-principle/lab-drawing-polygons.md)
   * [The Random Block](dry-principle/the-random-block.md)
   * [Lab - For Loop](dry-principle/lab-for-loop.md)
   * [Lab - Build a Wall](dry-principle/lab-build-a-wall.md)
