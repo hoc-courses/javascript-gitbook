@@ -7,12 +7,15 @@
 ---
 
 * [The DRY Principal](dry-principle/README.md)
-  * [Lab - Drawing a Square](dry-principle/lab-build-your-own-blocks.md)
+  * [Lab - Procedures/Blocks](dry-principle/lab-build-your-own-blocks.md)
   * [Lab - Drawing Polygons](dry-principle/lab-drawing-polygons.md)
   * [The Random Block](dry-principle/the-random-block.md)
-  * [Lab - Draw Flower](dry-principle/draw-flower.md)
   * [Lab - For Loop](dry-principle/lab-for-loop.md)
+  * [Lab - Build a Wall](dry-principle/lab-build-a-wall.md)
+  * [Lab - Guessing Game](dry-principle/lab-3-random-numbers-and-conditionals.md)
+  * [Lab - Predicates](dry-principle/lab-predicates.md)
 * [Algorithms](algorithms.md)
+* [Variables](variables.md)
 * [TODO](todo.md)
 
 ## JavaScript Intro <a id="javascript-intro-1"></a>
@@ -20,6 +23,7 @@
 ---
 
 * [BJC](bjc/README.md)
+  * [Lab - Draw Flower](bjc/draw-flower.md)
   * [Variables](bjc/variables.md)
   * [Loops](bjc/loops.md)
   * [For Loops Guide](bjc/for-loops-guide.md)
@@ -33,14 +37,12 @@
   * [Swap Two List Values](bjc/swap-two-list-values.md)
   * [Drawing](bjc/drawing.md)
 * [Draw Your Own Square](draw-your-own-square.md)
+* [Lab 2 - Build Your Own Blocks](lab-2-build-your-own-blocks.md)
 * [Lab - Recursion](lab-recursion.md)
 * [Lab 1 - Snap Intro](lab-1-welcome-to-visual-programming.md)
-* [Lab 2 - Build Your Own Blocks](lab-2-build-your-own-blocks/README.md)
-  * [Lab - Build a Wall](lab-2-build-your-own-blocks/lab-build-a-wall.md)
-* [Lab 3 - Guessing Game](lab-3-guessing-game/README.md)
-  * [Lab 3 - Random Numbers and Conditionals](lab-3-guessing-game/lab-3-random-numbers-and-conditionals.md)
+* [Lab 3 - Guessing Game](lab-3-guessing-game.md)
 * [Hangman](hangman.md)
-* [bjc for loop with counter](bjc-for-loop-with-counter.md)
+* [Music Project](music-project.md)
 * [bjc guessing game](bjc-guessing-game/README.md)
   * [2.1 Developing a Number Guessing Game with Script Variables- Lab Instructions](bjc-guessing-game/2.1-developing-a-number-guessing-game-with-script-variables-lab-instructions.md)
   * [2.1.2 - Debugging and Extending Your Number Guessing Game](bjc-guessing-game/2.1.2-debugging-and-extending-your-number-guessing-game.md)

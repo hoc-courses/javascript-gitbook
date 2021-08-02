@@ -101,7 +101,7 @@ By the way, try changing the turning angle from 90 to 92. It makes a beautiful p
 
 ![](../.gitbook/assets/image%20%2817%29.png)
 
-![](../.gitbook/assets/image%20%2893%29.png)
+![](../.gitbook/assets/image%20%2895%29.png)
 
 
 

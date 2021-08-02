@@ -8,7 +8,7 @@ But, we're here to talk about abstraction in the context of computer programming
 
 First, we'll assume that we're setup with a pen to draw. 
 
-![](../.gitbook/assets/image%20%2896%29.png)
+![](../.gitbook/assets/image%20%2898%29.png)
 
 Now, what if we want to change the size of the square? We have to modify each of the move blocks to take a new value.
 
@@ -36,7 +36,7 @@ It turns out that we can create an algorithm for drawing any polygon, because al
 
 Now we have a re-usable function that has two input arguments: the number of sides, and the length of the side, and then one function can draw any polygon.
 
-![](../.gitbook/assets/image%20%2894%29.png)
+![](../.gitbook/assets/image%20%2896%29.png)
 
 ```javascript
 function drawPolygon(numSides, sideLength) {

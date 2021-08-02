@@ -1,22 +1,31 @@
-# Lab 3 - Random Numbers and Conditionals
+# Lab - Guessing Game
 
-In this lab you will create a guessing game. This game will draw on what we’ve learned in the past two labs.
+In this lab you will create a guessing game. This game will draw on what we’ve learned in the past two labs and work with variables and conditionals.
 
 Look at the script below. The computer chooses a random number and then asks the player to guess the random number.
 
-#### Algorithm
+![](../.gitbook/assets/image%20%2891%29.png)
 
-When flag clicked  
- Set the secret number 1 to 10  
- Repeat forever  
- Ask for guess and wait  
- If the answer = the secret number  
- Say Guessed It Message  
- Stop the loop
+### Pseudocode
 
-#### Script
+* Pseudocode is a mix of English language and code that represents what you want your program to do. 
+* It helps you determine how you want the program to work as well as what variables and methods/functions you will want to include. 
+* Developing pseudocode will help you work through your logic, reducing the number of errors and potential re-writes you will have to do.
 
-![](../.gitbook/assets/0%20%281%29.png)
+### Pseudocode Example
+
+Represents the same process for dealing with a guessing game in which the computer generates a random number and the player guesses the number.
+
+```bash
+When flag clicked
+    Set the secret number between 1 and 10
+    Repeat forever
+        Ask player for guess and wait
+        If guess = secret number Then 
+            Display “Correct” 
+            Stop Script
+        
+```
 
 ### Step 0
 
@@ -36,7 +45,7 @@ Note that there is a new block above that will return a random number between th
 
 ![](../.gitbook/assets/1.png)
 
-The game is not that cool yet, though. In the next few steps, we are going to make the game much more like playing the number-guessing game with a person! Here are tasks to try to make the code act more like a human! If you think of anything else that would make it cooler, feel free to add it in. Try each of these in order. When you are done, your finished code should be able to deal with all of the tasks.
+The game is pretty basic, though. In the next few steps, we are going to make the game much more like playing the number-guessing game with a person. Here are tasks to try to make the code act more like a human. Try each of these in order. When you are done, your finished code should be able to deal with all of the tasks.
 
 ### Step 1
 

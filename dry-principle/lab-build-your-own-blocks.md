@@ -1,25 +1,14 @@
-# Lab - Drawing a Square
+# Lab - Procedures/Blocks
 
 As you have seen, Snap! is a powerful language that has a substantial repository of useful blocks for a variety of purposes. However, as you may have noticed, Snap! does not have all the blocks that you may need, and often, it would prove useful if we could create new blocks.
 
-There are three types of function blocks you can create in Snap. ****
+When you build a new block you are creating a procedure. A **procedure** is a named sequence of instructions that may take inputs and may return a value. Different languages call them by different names. Some languages call procedures _**methods**_ ****or _**functions**_. 
 
-### **Command**
+In Snap!,  you can create a new procedure by **creating a new block**. There are three categories of blocks:
 
-* Creates a block that “makes something happen” without a value being returned, such as drawing a square.
-* The same blocks that looks like puzzle pieces. 
-
-### **Reporter**
-
-* Creates a block that reports or returns a value. 
-* These blocks look like some of your operator blocks, such as the `() + ()` block. \(rounded ends\) 
-
-### **Predicate** 
-
-* Creates a block that reports or returns either true or false. 
-* These blocks look like some of your operator blocks, such as the `() < ()` block. \(pointed ends\)
-
-
+* **commands** -  tells the computer to do something without returning a value.
+* **reporters** - returns a value.
+* **predicates** - a type of reporter, returns either true or false
 
 ### Make Your Own Block <a id="make-your-own-block--a-tutorial"></a>
 
@@ -80,23 +69,9 @@ You have created a block that draws a square, but it only draws a square where e
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-14.png)
 
-
-
-
-
-### Make a draw shape Block <a id="make-a-draw-shape-block"></a>
-
-Now, you are going to make a block that takes two inputs. We want to create a `draw shape` block that takes a number of sides and a number of pixels for the length of each side. We will call these input arguments `n` and `pixel`. 
-
-By the way, you can create the inputs to this block in exactly the same way as we did in the previous section, by clicking on the plus signs to add input; however, you can also type the names of the input as shown below.
-
-![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-15.png)
-
-The percent signs \(%\) indicate that the word should be an input. We want you to feel comfortable with both entry methods.
-
 ### The Max block <a id="the-max-block"></a>
 
-We will now make a different kind of block – a _reporter_ block. To demonstrate this, we will make a block called `max` that takes two numbers as input and reports the bigger value \(the maximum\).
+We will now make a different kind of block – a _**reporter**_ ****block. To demonstrate this, we will make a block called `max` that takes two numbers as input and reports the bigger value \(the maximum\).
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-16.png)
 
@@ -135,8 +110,6 @@ We are going to limit the `max` block to accept only numbers as arguments.
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-24.png)
 
-Note: Maybe we _did_ want the `max` block to work with words! However, for the `draw square` and `draw shape` blocks, we definitely only wanted numbers. Modify those blocks to only take in numbers.
-
 ### Composition of Functions <a id="composition-of-functions"></a>
 
 Our custom-made blocks are blocks like any other, and we can use them in other block definitions. To demonstrate this, we are going to make a block that computes the maximum of three values
@@ -147,15 +120,15 @@ Repeat the steps from the last tutorial to make this version of the `max` block 
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-26.png)
 
-### Try It! AddNumbers and JoinText <a id="try-it-addnumbers-and-jointext"></a>
+### Lab Exercise <a id="try-it-addnumbers-and-jointext"></a>
 
 Your challenge is to create the following two blocks. You can use the same project file.
 
-* A three-argument addition operator that only accepts numbers.
+* **Add Numbers** - A three-argument addition operator that only accepts numbers.
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-27.png)
 
-* A three-argument `join` operator that has the default values shown below and only accepts text.
+* **Join** - A three-argument `join` operator that has the default values shown below and only accepts text.
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-28.png)
 
@@ -175,35 +148,19 @@ We want to make our own predicate, a kind of block that reports either `true` or
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-31.png)
 
-### Try It! Predicates: Make a between block <a id="try-it-predicates-make-a-between-block"></a>
+### Make a between block <a id="try-it-predicates-make-a-between-block"></a>
 
 Create a new predicate block that determines if a number is between two other numbers. The block should return `true` if the first number is between the two numbers or if it is equal to either of the numbers.
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-32.png)
 
-### Different Kinds of Variables <a id="different-kinds-of-variables"></a>
-
-We’ve seen a lot of different types of variables.
-
-* **Normal/Global variables**: These variables are made in the regular menu and can be used ANYWHERE! The variable “score” below is an example. _These can be used by any sprite, in any block or in any script_.
-
-![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-33.png)
-
-* **Sprite Specific Variables**: When you create a “normal/global” variable you can select that the variable is “For this sprite only”. Then these variables will show up as variables listed below the line in the variables tab. _We recommend not using these variables in blocks._
-
-![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-34.png)
-
-* **Arguments to a function**: A variable set by the person calling the function. We also refer to this as “input”. _This can ONLY be used within the block editor._
-
-![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-35.png)
-
-* **Script Variables**: The “script variable” block gives us a variable that we can use inside of this script. _These can only be used in that particular script. The script could be a block script \(shown below\) or a regular script._
+\*\*\*\*
 
 ![Dialog](http://bjc-nc.github.io/bjc-course/curriculum/03-build-your-own-blocks/labs/lab-block-36.png)
 
-### Try It! Simplifying a tic-tac-toe board drawer using functions <a id="try-it-simplifying-a-tic-tac-toe-board-drawer-using-functions"></a>
+### Simplifying a tic-tac-toe board drawer using functions <a id="try-it-simplifying-a-tic-tac-toe-board-drawer-using-functions"></a>
 
-In the previous lab, we used a `repeat` block to avoid duplicating code. Similarly, we can use a function to avoid duplicating code. Below is some code to draw a tic-tac-toe board. Your goal is to create functions that make this code simpler. One important thing to keep in mind is to give your new functions really intuitive names, so that it is easy to read the code and understand what it does.
+When drawing a square, we used a `repeat` block to avoid duplicating code. Similarly, we can use a function to avoid duplicating code. Below is some code to draw a tic-tac-toe board. Your goal is to create functions \(code blocks\) that make this code simpler. One important thing to keep in mind is to give your new functions really intuitive names, so that it is easy to read the code and understand what it does.
 
 Using the blocks below, create two new function blocks, draw line and next line, to draw the tic-tac-toe board. You will still have some of the code from the original script. You can create additional blocks for those functions.
 
