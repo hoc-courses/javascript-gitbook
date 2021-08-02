@@ -42,7 +42,7 @@ The number 10 in the move block above is called an input to the block. By clicki
 
 ## Stage Coordinates
 
-![](.gitbook/assets/image%20%2876%29.png)
+![](.gitbook/assets/image%20%2878%29.png)
 
 ## Drawing Tools
 

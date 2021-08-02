@@ -16,7 +16,7 @@ Writing/copying and pasting the same code or logic again and again.
 
 Let's start out with a simple example. We want to draw a square. Here is an algorithm for drawing a square.
 
-![](../.gitbook/assets/image%20%2881%29.png)
+![](../.gitbook/assets/image%20%2883%29.png)
 
 Now let's draw a series of squares.
 
@@ -30,7 +30,7 @@ Refactoring is when you take some code that is functionally correct and modify i
 
 ### Loops
 
-One way to reduce redundant code is to introduce a loop. In Snap! there is the **repeat** block in the Controls palette, which will repeat a series of instructions a specified number of times. 
+One way to reduce redundant code is to introduce a loop. In Snap, we can use the **repeat** block to make drawing shapes a lot easier! The **repeat** block will repeat a series of instructions a specified number of times. 
 
 In the code below, we refactored the code into fewer instructions by utilizing the repeat block to execute the same instructions three times.
 
@@ -38,7 +38,7 @@ In the code below, we refactored the code into fewer instructions by utilizing t
 
 ### Nested Loops
 
-We can further refactor our code by adding another loop nested within the outer repeat loop to repeat the drawing of each side of the square.
+We can further refactor our code by adding another loop nested within the outer repeat block to repeat the drawing of each side of the square.
 
 ![](../.gitbook/assets/image%20%2840%29.png)
 
@@ -84,5 +84,5 @@ Once the parameters are added, they can be used within the procedure by dragging
 
 And now we have our finished algorithm to draw a series of three squares.
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 

@@ -9,7 +9,7 @@ We want to create a `draw polygon` block that takes as inputs:
 
 ![draw polygon \(\) sides of length \(\)](https://beautyjoy.github.io/bjc-r/img/prog/polyblock.png)
 
-In the block, call these inputs `sides` and `length`. This exercise should be done with a partner, so introduce yourself to your neighbor and get started on the exercise together.
+In the block, call these inputs `sides` and `length`. 
 
 You should remember from [this lesson](https://beautyjoy.github.io/bjc-r/cur/programming/loops/repeat-n/draw-regular-polygons-with-repeat.html) how to draw a regular polygon. How many degrees altogether? How many turns?
 

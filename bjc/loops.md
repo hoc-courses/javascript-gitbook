@@ -41,7 +41,7 @@ Also, try changing the turning angle and the move length to see how close you ca
   
 ![spiral](https://beautyjoy.github.io/bjc-r/img/prog/spiral.png)
 
-![](../.gitbook/assets/image%20%2875%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
 ## Looping Blocks
 
@@ -93,15 +93,15 @@ By the way, try changing the turning angle from 90 to 92. It makes a beautiful p
 
 
 
-![](../.gitbook/assets/image%20%2863%29.png)
-
 ![](../.gitbook/assets/image%20%2864%29.png)
+
+![](../.gitbook/assets/image%20%2865%29.png)
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
 ![](../.gitbook/assets/image%20%2817%29.png)
 
-![](../.gitbook/assets/image%20%2891%29.png)
+![](../.gitbook/assets/image%20%2893%29.png)
 
 
 

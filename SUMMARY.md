@@ -7,7 +7,8 @@
 ---
 
 * [The DRY Principal](dry-principle/README.md)
-  * [Draw Your Own Square](dry-principle/draw-your-own-square.md)
+  * [Lab - Drawing a Square](dry-principle/lab-build-your-own-blocks.md)
+  * [Lab - Drawing Polygons](dry-principle/lab-drawing-polygons.md)
 * [Algorithms](algorithms.md)
 * [TODO](todo.md)
 
@@ -28,10 +29,10 @@
   * [Higher Order Functions](bjc/higher-order-functions.md)
   * [Swap Two List Values](bjc/swap-two-list-values.md)
   * [Drawing](bjc/drawing.md)
+* [Draw Your Own Square](draw-your-own-square.md)
 * [Lab - Recursion](lab-recursion.md)
 * [Lab 1 - Snap Intro](lab-1-welcome-to-visual-programming.md)
 * [Lab 2 - Build Your Own Blocks](lab-2-build-your-own-blocks/README.md)
-  * [Lab - Build Your Own Blocks](lab-2-build-your-own-blocks/lab-build-your-own-blocks.md)
   * [Lab - Build a Wall](lab-2-build-your-own-blocks/lab-build-a-wall.md)
   * [Draw a Polygon](lab-2-build-your-own-blocks/draw-a-polygon.md)
   * [Draw Flower](lab-2-build-your-own-blocks/draw-flower.md)
