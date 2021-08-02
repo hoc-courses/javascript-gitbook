@@ -8,13 +8,21 @@
 
 * [The DRY Principal](dry-principle.md)
 * [Algorithms](algorithms.md)
+* [Functions](functions-1.md)
 
 ## JavaScript Intro <a id="javascript-intro-1"></a>
 
 ---
 
 * [BJC](bjc.md)
-* [xxx](xxx.md)
+* [bjc for loop with counter](bjc-for-loop-with-counter.md)
+* [bjc guessing game](bjc-guessing-game/README.md)
+  * [Lab 1: Welcome to Visual Programming](bjc-guessing-game/lab-1-welcome-to-visual-programming.md)
+  * [2.1 Developing a Number Guessing Game with Script Variables- Lab Instructions](bjc-guessing-game/2.1-developing-a-number-guessing-game-with-script-variables-lab-instructions.md)
+  * [2.1.2 - Debugging and Extending Your Number Guessing Game](bjc-guessing-game/2.1.2-debugging-and-extending-your-number-guessing-game.md)
+  * [2.1.3 Keeping Score with Global Variables](bjc-guessing-game/2.1.3-keeping-score-with-global-variables.md)
+  * [2.1.4 Importing Greet Player into Another Program](bjc-guessing-game/2.1.4-importing-greet-player-into-another-program.md)
+  * [Unit 2 Assessment](bjc-guessing-game/unit-2-assessment.md)
 * [JavaScript Intro](javascript-intro/README.md)
   * [Including JavaScript](javascript-intro/including-javascript.md)
   * [Your First JavaScript](javascript-intro/your-first-javascript.md)
