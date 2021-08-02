@@ -6,7 +6,7 @@
 
 
 
-![](.gitbook/assets/image%20%2859%29.png)
+![](.gitbook/assets/image%20%2864%29.png)
 
 {% embed url="https://www.youtube.com/watch?v=qLU3PtaG3ww" %}
 
@@ -26,7 +26,7 @@ Stairs Lab
 
 
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 Yellow brick road
 

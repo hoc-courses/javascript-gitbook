@@ -32,7 +32,7 @@ repeat until \(touching \(Leader\)?\)
 
  Make the sprite draw only if the mouse button is down, so that you can draw disconnected shapes. You'll need to uncheck the "draggable" box above the scripting area before you try this \(so that Snap_!_ doesn't think you are trying to drag the sprite when you click\).
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](../.gitbook/assets/image%20%2892%29.png)
 
   
 You'll probably want to use the ![mouse down? predicate block](https://bjc.edc.org/bjc-r/img/blocks/mouse-down.png) block, which you can find in the Sensing palette.

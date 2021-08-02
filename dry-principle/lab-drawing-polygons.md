@@ -8,7 +8,7 @@ A **regular polygon** is a shape in which all the sides are the same length and 
 
 #### Drawing a Square
 
-Before beginning this exercise, you should have already completed the [Drawing a Square](../draw-your-own-square.md) Lab to become familiar with building Snap blocks and using the repeat block.
+Before beginning this exercise, you should have already completed the [Drawing a Square]() Lab to become familiar with building Snap blocks and using the repeat block.
 
 **Draw a Triangle**
 

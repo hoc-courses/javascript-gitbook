@@ -2,7 +2,7 @@
 
 ### Looping Forever
 
-![](../.gitbook/assets/image%20%2893%29.png)
+![](../.gitbook/assets/image%20%28101%29.png)
 
 There isn't a direct equivalent of the Scratch forever loop in JavaScript, but the while loop is pretty close. A key difference is that the  JavaScript while loop is constantly testing a condition to see whether it should continue. Here are the key rules:
 
@@ -20,7 +20,7 @@ while (true) {
 
 Whenever you want to count to a pre-defined number of times in Scratch you can use the repeat loop.
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 In JavaScript we have two choices: the `while` loop and the `for` loop.
 

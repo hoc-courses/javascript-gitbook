@@ -74,7 +74,7 @@ When you make a global variable, you also get a “Delete a variable” button t
 
 
 
-![](../.gitbook/assets/image%20%2894%29.png)
+![](../.gitbook/assets/image%20%28102%29.png)
 
-![](../.gitbook/assets/image%20%2876%29.png)
+![](../.gitbook/assets/image%20%2882%29.png)
 

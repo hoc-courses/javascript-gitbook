@@ -4,7 +4,7 @@ In this lab you will create a guessing game. This game will draw on what we’ve
 
 Look at the script below. The computer chooses a random number and then asks the player to guess the random number.
 
-![](../.gitbook/assets/image%20%2891%29.png)
+![](../.gitbook/assets/image%20%2899%29.png)
 
 ### Pseudocode
 

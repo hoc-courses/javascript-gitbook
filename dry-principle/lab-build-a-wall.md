@@ -1,4 +1,6 @@
-# Lab - Build a Wall
+# Lab - Abstraction
+
+### Build a Wall
 
 We are going to draw this brick wall.
 

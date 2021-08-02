@@ -1,28 +1,28 @@
 # Conditionals
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2858%29.png)
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
-![](../.gitbook/assets/image%20%281%29.png)
-
-
-
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 
 
-![](../.gitbook/assets/image%20%2879%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
-![](../.gitbook/assets/image%20%2812%29.png)
+
+
+![](../.gitbook/assets/image%20%2885%29.png)
+
+![](../.gitbook/assets/image%20%2813%29.png)
 
 
 
