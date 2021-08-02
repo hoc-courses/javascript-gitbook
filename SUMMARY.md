@@ -9,6 +9,8 @@
 * [The DRY Principal](dry-principle/README.md)
   * [Lab - Drawing a Square](dry-principle/lab-build-your-own-blocks.md)
   * [Lab - Drawing Polygons](dry-principle/lab-drawing-polygons.md)
+  * [The Random Block](dry-principle/the-random-block.md)
+  * [Lab - Draw Flower](dry-principle/draw-flower.md)
 * [Algorithms](algorithms.md)
 * [TODO](todo.md)
 
@@ -34,9 +36,6 @@
 * [Lab 1 - Snap Intro](lab-1-welcome-to-visual-programming.md)
 * [Lab 2 - Build Your Own Blocks](lab-2-build-your-own-blocks/README.md)
   * [Lab - Build a Wall](lab-2-build-your-own-blocks/lab-build-a-wall.md)
-  * [Draw a Polygon](lab-2-build-your-own-blocks/draw-a-polygon.md)
-  * [Draw Flower](lab-2-build-your-own-blocks/draw-flower.md)
-  * [The Random Block](lab-2-build-your-own-blocks/the-random-block.md)
 * [Lab 3 - Guessing Game](lab-3-guessing-game/README.md)
   * [Lab 3 - Random Numbers and Conditionals](lab-3-guessing-game/lab-3-random-numbers-and-conditionals.md)
 * [Hangman](hangman.md)
