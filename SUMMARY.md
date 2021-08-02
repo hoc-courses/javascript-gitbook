@@ -11,6 +11,7 @@
   * [Lab - Drawing Polygons](dry-principle/lab-drawing-polygons.md)
   * [The Random Block](dry-principle/the-random-block.md)
   * [Lab - Draw Flower](dry-principle/draw-flower.md)
+  * [Lab - For Loop](dry-principle/lab-for-loop.md)
 * [Algorithms](algorithms.md)
 * [TODO](todo.md)
 
