@@ -8,19 +8,19 @@ But, we're here to talk about abstraction in the context of computer programming
 
 First, we'll assume that we're setup with a pen to draw. 
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2857%29.png)
 
 Now, what if we want to change the size of the square? We have to modify each of the move blocks to take a new value.
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 We could improve this by creating a variable, named size, that would store the length of the square. That way we do not need to repeat the value 100 in each call to the function move.
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 There is still room for improvement. There is repetition in this series of steps. We can use a repeat loop to simplify the code further.
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 There's a further improvement that we can make. We can create a code block, or function, of our own named `drawSquare`, that will do these steps and then we can just call the function. 
 
@@ -30,13 +30,13 @@ Now we don't have to think about the implementation details of how the square is
 
 As we saw earlier when we were calling the say function in Scratch, functions can have input arguments. For our square function, we can add an input argument to specify the size of the square.
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 It turns out that we can create an algorithm for drawing any polygon, because all of the interior angles must add up to 360 degrees. So we just need to calculate what the angle is that we need to turn by dividing 360 degrees by the number of sides for the polygon.
 
 Now we have a re-usable function that has two input arguments: the number of sides, and the length of the side, and then one function can draw any polygon.
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 ```javascript
 function drawPolygon(numSides, sideLength) {

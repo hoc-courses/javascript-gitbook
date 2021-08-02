@@ -20,7 +20,7 @@ A sprite is a Scratch character. Each sprite has its own scripts, costumes, and 
 
 The sprite occupies a point`(x,y)` on the stage corresponding to the x- and y- axis. 
 
-![](.gitbook/assets/image%20%2843%29.png)
+![](.gitbook/assets/image%20%2845%29.png)
 
 You can click on the tabs on the left to see what kinds of blocks there are to build your program. Then you can click on any of the blocks in the section and drag them over onto the Scripts area. A script is just a set of instructions for the computer to follow.
 

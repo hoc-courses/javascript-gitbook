@@ -1,7 +1,13 @@
 # Table of contents
 
 * [Intro to Programming](README.md)
-* [The DRY Principle](the-dry-principle.md)
+
+## Programming Principles
+
+* [The DRY Principle](programming-principles/the-dry-principle.md)
+
+---
+
 * [Algorithms](algorithms.md)
 * [BJC](bjc.md)
 * [JavaScript Intro](javascript-intro/README.md)

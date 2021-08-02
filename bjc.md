@@ -44,7 +44,7 @@ Unit 3 Lab 1 - Building a brick wall
 
 {% embed url="https://bjc.edc.org/bjc-r/cur/programming/3-lists/1-abstraction/4-brick-wall.html?topic=nyc\_bjc%2F3-lists.topic&course=bjc4nyc.html&novideo&noassignment" %}
 
+![](.gitbook/assets/image%20%288%29.png)
 
-
-
+![](.gitbook/assets/image%20%2813%29.png)
 
