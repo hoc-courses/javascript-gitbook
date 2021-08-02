@@ -1,4 +1,4 @@
-# Lab - Snap Intro
+# Lab 1 - Snap Intro
 
 Let’s first look at the IDE \(Integrated Development Environment\). You should see the following arrangement of regions in the window:
 
@@ -40,6 +40,10 @@ The number 10 in the move block above is called an input to the block. By clicki
 | **Costumes \(Each sprite can have multiple costumes\)** | ![](.gitbook/assets/15%20%281%29.png) |
 | **Stage** | ![](.gitbook/assets/16%20%281%29.png) |
 
+## Stage Coordinates
+
+![](.gitbook/assets/image%20%2861%29.png)
+
 ## Drawing Tools
 
 There are multiple blocks that can be used to draw. By combining blocks from the Pen palette with blocks from the Motion palette, you can draw pictures. Your sprite needs to face in the direction you want the line to be drawn so you will need the point in direction \(\) block.
@@ -50,5 +54,5 @@ There are multiple blocks that can be used to draw. By combining blocks from the
 
 Look at the following scripts to draw a square. By using the pen down block your sprite will draw for you.
 
-![](.gitbook/assets/image%20%2834%29.png)
+![](.gitbook/assets/image%20%2835%29.png)
 

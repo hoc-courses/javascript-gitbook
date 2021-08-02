@@ -68,3 +68,11 @@ _Try this_
 
 It should replace “good” with “great,” “bad” with “terrible,” “like” with “love,” etc. And it should replace every number with twice the number.
 
+
+
+### Resources
+
+{% embed url="https://youtu.be/QsiK8pB7KdQ" %}
+
+
+
