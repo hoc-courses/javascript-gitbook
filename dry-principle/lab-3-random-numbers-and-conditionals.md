@@ -87,7 +87,7 @@ The script variable secret number exists only until the script finishes running.
 
 Look at the script below. The computer chooses a random number and then asks the player to guess the random number.
 
-![](../.gitbook/assets/image%20%28114%29.png)
+![](../.gitbook/assets/image%20%28117%29.png)
 
 ### Pseudocode
 
@@ -97,7 +97,7 @@ Look at the script below. The computer chooses a random number and then asks the
 
 ### Pseudocode Example
 
-![](../.gitbook/assets/image%20%2856%29.png)
+![](../.gitbook/assets/image%20%2857%29.png)
 
 Represents the same process for dealing with a guessing game in which the computer generates a random number and the player guesses the number.
 
@@ -142,13 +142,13 @@ Add to your beginning script the blocks so that the sprite welcomes the player a
 
 We want to give the player more information if they don’t guess correctly. Have the sprite tell the player if the secret number is bigger or smaller than the number that they guessed.
 
-![](../.gitbook/assets/image%20%2889%29.png)
+![](../.gitbook/assets/image%20%2891%29.png)
 
 ### Step 3
 
 Right now, the sprite always picks a number between 1 and 10. Change this so that the sprite always picks a number between 1 and a variable named max. \(Don’t forget to add the variable.\) Add to your script so that it asks the player what they would like the maximum number to be, before choosing a random number. Use this maximum number as the highest number that the sprite will choose.
 
-![](../.gitbook/assets/image%20%2898%29.png)
+![](../.gitbook/assets/image%20%28100%29.png)
 
 ![](../.gitbook/assets/image%20%2813%29.png)
 
@@ -156,17 +156,17 @@ Right now, the sprite always picks a number between 1 and 10. Change this so tha
 
 Now let’s keep track of how many guesses it takes before the player guesses the right number. You will need a new variable for this task and will need to add to it every time a guess occurs.
 
-![](../.gitbook/assets/image%20%28117%29.png)
+![](../.gitbook/assets/image%20%28120%29.png)
 
-![](../.gitbook/assets/image%20%2864%29.png)
+![](../.gitbook/assets/image%20%2865%29.png)
 
 ### Step 5
 
 When the player guesses the secret number, tell them how many guesses it took, and congratulate them using their name.
 
-![](../.gitbook/assets/image%20%2862%29.png)
+![](../.gitbook/assets/image%20%2863%29.png)
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 
 
 

@@ -7,7 +7,7 @@
   * This is very simplified of course. 
 * Each of these slots would be assigned to a variable \(by its name\) and would hold the values assigned.
 
-![](.gitbook/assets/image%20%2839%29.png)
+![](.gitbook/assets/image%20%2840%29.png)
 
 ### Adding Variables
 
@@ -15,7 +15,7 @@
 * The variable allows you to change a value as the script runs. 
 * To add a variable, select the Variables palette, then click on the **Make a Variable** button.
 
-![](.gitbook/assets/image%20%28108%29.png)
+![](.gitbook/assets/image%20%28111%29.png)
 
 ### Creating a Variable <a id="different-kinds-of-variables"></a>
 
@@ -41,7 +41,7 @@ Note: Checking the checkbox beside a variable name will display the value of the
 
 The set command block is used to initialize a variable, not to update its value.
 
-![](.gitbook/assets/image%20%2870%29.png)
+![](.gitbook/assets/image%20%2871%29.png)
 
 #### Updating/Changing Variables Example
 

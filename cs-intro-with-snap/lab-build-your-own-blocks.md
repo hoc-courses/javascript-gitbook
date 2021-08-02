@@ -1,16 +1,4 @@
-# Lab - Procedures/Blocks
-
-As you have seen, Snap! is a powerful language that has a substantial repository of useful blocks for a variety of purposes. However, as you may have noticed, Snap! does not have all the blocks that you may need, and often, it would prove useful if we could create new blocks.
-
-When you build a new block you are creating a procedure. A **procedure** is a named sequence of instructions that may take inputs and may return a value. Different languages call them by different names. Some languages call procedures _**methods**_ ****or _**functions**_. 
-
-In Snap!,  you can create a new procedure by **creating a new block**. There are three categories of blocks:
-
-* **commands** -  tells the computer to do something without returning a value.
-* **reporters** - returns a value.
-* **predicates** - a type of reporter, returns either true or false
-
-### Make Your Own Block <a id="make-your-own-block--a-tutorial"></a>
+# Lab - Make Your Own Blocks
 
 We are going to teach the computer how to draw a square using a block named `draw square`. Please follow the steps below:
 
