@@ -1,10 +1,93 @@
-# Lab - Guessing Game
+# Lab - Script Variables
 
 In this lab you will create a guessing game. This game will draw on what we’ve learned in the past two labs and work with variables and conditionals.
 
+**In this lab,** you will use local and global _variables_ to store information.
+
+**On this page,** you will begin to develop a number guessing game that uses a _local variable_ to keep track of a secret number.
+
+### Tracking the Secret Number
+
+Start building a new command block called `number guessing game` that will contain the code for the game. Leave the Block Editor open.
+
+In a number-guessing game, the player tries to guess the computer's secret number. The computer needs a way to store the secret number in a _variable_ so that it can compare it to the player's guesses.  
+![script variables \(secret number\)](https://bjc.edc.org/bjc-r/img/2-complexity/script-variables-secret-number.png): **Variable**
+
+A **variable** is like a box that can hold one value at a time, such as one word, one costume, or one list \(which can contain many things\). You can look at what's inside as many times as you want.
+
+Here, we are starting to look at _data abstraction_, giving names to numbers, text, lists, etc. When you give something a name, you can refer to it without knowing exactly what the value is.
+
+Create a script variable called secret number to store the number that the player will try to guess \(instructions below\).
+
+**Making a Script Variable**
+
+1. **Move a `script variables` block into the Scripting Area.** You can find it in the Variables palette. ![script variables](https://bjc.edc.org/bjc-r/img/prog/scriptvar.png)
+2. **Name the variable** by clicking on the orange a at the end and typing the name you want. Here, it should be called secret number.
+
+**Later, you will use the script variable** by dragging it out of the `script variables` block \(the way you drag an input\) and placing it where you need it in your code.
+
+Use ![set \(\) to \(\)](https://bjc.edc.org/bjc-r/img/blocks/set-empty.png) to set the initial value of secret number to a random number from 1 to 10. The `set` menu lets you select which variable to set.  
+
+
+The variable secret number is available in the `set` block only when you snap it somewhere after the `script variables` block.![set block menu selecting secret number](https://bjc.edc.org/bjc-r/img/2-complexity/set-secret-number-menu.jpg)
+
+ Script variables are a kind of _local variable_; they work only within the script where they're created. If you drag one into a different script, it won't work. You've seen two kinds of local variables before: inputs to blocks and `for` counters.
+
+A **local variable** can be set or used only in the environment in which it is defined. This term includes inputs to procedures and variables created by the `for` or `script variables` block.
+
+### Checking the Player's Guess
+
+ You'll want the computer to ask players to guess again and again until they guess correctly. To do that, you will use the ![repeat until](https://bjc.edc.org/bjc-r/img/blocks/repeat-until.png) block. `Repeat until` is a _loop_ \(just like `repeat`, `forever`, and `for`\) but also a _conditional_ \(like `if` and `if else`\). It repeats until a certain condition is met. For this program, the code should repeat until the player's answer equals the secret number.
+
+Use `repeat until` to ask the player \(![ask \(\) and wait](https://bjc.edc.org/bjc-r/img/blocks/ask-empty-full-size.png)\) to guess the secret number until their ![answer](https://bjc.edc.org/bjc-r/img/blocks/answer-full-size.png) equals the secret number.
+
+* Drag the secret number variable out of the `script variables` block to use it.
+* The `ask` and `answer` blocks go together. If you use `ask` to ask a question, the user's answer will be reported by `answer`.
+
+After the player guesses the secret number, make the computer congratulate the player.
+
+`Repeat until` makes its decision based on the output of a hexagonal _predicate_ block.**:** 
+
+\*\*\*\*
+
+\*\*\*\*
+
+**Vocabulary -** A **predicate** is a hexagon-shaped reporter that asks a true/false question such as these examples:  
+![8 &amp;gt; 7 reporting true](https://bjc.edc.org/bjc-r/img/2-complexity/8-gt-7-reporting-true.png) ![6 &amp;gt; 7 reporting false](https://bjc.edc.org/bjc-r/img/2-complexity/6-gt-7-reporting-false.png)
+
+Predicates report a **Boolean value** \(either ![true](https://bjc.edc.org/bjc-r/img/blocks/true.png) or ![false](https://bjc.edc.org/bjc-r/img/blocks/false.png)\).
+
+
+
+Predicates fit into a hexagonal input slots of conditionals, such as in ![if block](https://bjc.edc.org/bjc-r/img/blocks/if-full-size.png) and ![repeat until](https://bjc.edc.org/bjc-r/img/blocks/repeat-until.png). Predicates help conditionals _decide when to do something_.
+
+**Vocabulary** - The `if` and `if-else` blocks are called **conditionals** because they control the code based on a true-or-false **condition**.
+
+
+
+Use more conditional blocks and predicates to make the computer tell the player whether a guess is too big or too small: "That's too big. Try again."
+
+ Play your game enough to see if it works the way you want. It should:
+
+* ask the player to guess its secret number;
+* say whether a wrong guess is too big or too small, and then ask again;
+* congratulate the player for a correct answer.
+
+The script variable secret number exists only until the script finishes running. When the game is played again, the program will create a new secret number variable and give it a new random number.
+
+
+
+### Extensions
+
+1. Right now, the script always picks a number between 1 and 10. At the start of the game, ask the player what the maximum number should be, and make your program choose a number between 1 and maximum.
+2. Use another script variable to keep track of how many guesses the player makes before getting the right number. When the player guesses the secret number, say how many guesses it took.
+3. Find a way to vary the language a bit so that your program does not always repeat exactly the same words in the same situation. For example, if a player guesses too high twice in a row, the program could say "That's still too big. Try another number."
+
+
+
 Look at the script below. The computer chooses a random number and then asks the player to guess the random number.
 
-![](../.gitbook/assets/image%20%2899%29.png)
+![](../.gitbook/assets/image%20%28114%29.png)
 
 ### Pseudocode
 
@@ -13,6 +96,8 @@ Look at the script below. The computer chooses a random number and then asks the
 * Developing pseudocode will help you work through your logic, reducing the number of errors and potential re-writes you will have to do.
 
 ### Pseudocode Example
+
+![](../.gitbook/assets/image%20%2856%29.png)
 
 Represents the same process for dealing with a guessing game in which the computer generates a random number and the player guesses the number.
 
@@ -57,17 +142,33 @@ Add to your beginning script the blocks so that the sprite welcomes the player a
 
 We want to give the player more information if they don’t guess correctly. Have the sprite tell the player if the secret number is bigger or smaller than the number that they guessed.
 
+![](../.gitbook/assets/image%20%2889%29.png)
+
 ### Step 3
 
 Right now, the sprite always picks a number between 1 and 10. Change this so that the sprite always picks a number between 1 and a variable named max. \(Don’t forget to add the variable.\) Add to your script so that it asks the player what they would like the maximum number to be, before choosing a random number. Use this maximum number as the highest number that the sprite will choose.
+
+![](../.gitbook/assets/image%20%2898%29.png)
+
+![](../.gitbook/assets/image%20%2813%29.png)
 
 ### Step 4
 
 Now let’s keep track of how many guesses it takes before the player guesses the right number. You will need a new variable for this task and will need to add to it every time a guess occurs.
 
+![](../.gitbook/assets/image%20%28117%29.png)
+
+![](../.gitbook/assets/image%20%2864%29.png)
+
 ### Step 5
 
 When the player guesses the secret number, tell them how many guesses it took, and congratulate them using their name.
+
+![](../.gitbook/assets/image%20%2862%29.png)
+
+![](../.gitbook/assets/image%20%2859%29.png)
+
+
 
 ## **Lab- Guessing Game version 2.0**
 
@@ -175,6 +276,10 @@ So, give the same logic to the guessing sprite.
 **Test your game!**
 
 ![](../.gitbook/assets/10.png)
+
+### Resources
+
+{% embed url="https://youtu.be/ps8tc0cQsGg" %}
 
 
 

@@ -42,7 +42,7 @@ The number 10 in the move block above is called an input to the block. By clicki
 
 ## Stage Coordinates
 
-![](../.gitbook/assets/image%20%2884%29.png)
+![](../.gitbook/assets/image%20%2899%29.png)
 
 ## Drawing Tools
 
@@ -52,7 +52,11 @@ There are multiple blocks that can be used to draw. By combining blocks from the
 
 ## Drawing shapes
 
+There are several blocks you will use to draw
+
+![](../.gitbook/assets/image%20%2812%29.png)
+
 Look at the following scripts to draw a square. By using the pen down block your sprite will draw for you.
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2893%29.png)
 

@@ -39,7 +39,7 @@ The `mod` block **reports the remainder** when the first input is divided by the
 
  In a later lab, you can use your `even?` block to draw a [brick wall](https://bjc.edc.org/bjc-r/cur/programming/3-lists/1-abstraction/4-brick-wall.html?topic=nyc_bjc%2F2-conditionals-abstraction.topic&course=bjc4nyc.html&novideo&noassignment) because the even and odd numbered rows are different.
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2868%29.png)
 
 
 

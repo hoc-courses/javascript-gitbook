@@ -53,3 +53,15 @@ In summary, you should implement the following blocks:
 
 ![](../.gitbook/assets/36.png)
 
+### Resources
+
+![](../.gitbook/assets/image%20%2874%29.png)
+
+{% embed url="https://youtu.be/bons028VLEU" %}
+
+
+
+{% embed url="https://youtu.be/Y5lZQRawsFk" %}
+
+
+
