@@ -20,6 +20,8 @@
 
 #### [http://paleyontology.com/csp/](http://paleyontology.com/csp/)
 
+#### [https://beautyjoy.github.io/bjc-r/course/cs10\_sp19.html](https://beautyjoy.github.io/bjc-r/course/cs10_sp19.html)
+
 #### 
 
 #### Sample Assessment

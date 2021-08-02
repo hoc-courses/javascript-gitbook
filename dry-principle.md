@@ -32,7 +32,7 @@ Refactoring is when you take some code that is functionally correct and modify i
 
 One way to reduce redundant code is to introduce a loop. In Snap! there is the repeat block in the palette within the **controls** category, which will repeat a series of instructions a specified number of times. 
 
-In the code below, we refactored the code into few lines of code by utilizing the repeat block to execute the same instructions three times.
+In the code below, we refactored the code into fewer lines of code by utilizing the repeat block to execute the same instructions three times.
 
 ![](.gitbook/assets/image%20%2829%29.png)
 
