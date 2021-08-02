@@ -2,7 +2,7 @@
 
 We are going to draw this brick wall.
 
-![](../.gitbook/assets/34%20%281%29.png)
+![](../.gitbook/assets/34%20%282%29.png)
 
 This project is not just about drawing; it is also about practicing abstraction. You will draw the following brick wall by implementing the blocks listed below.
 

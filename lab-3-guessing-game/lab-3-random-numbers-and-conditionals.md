@@ -42,7 +42,7 @@ The game is not that cool yet, though. In the next few steps, we are going to ma
 
 Add to your beginning script the blocks so that the sprite welcomes the player and asks for their name before beginning.
 
-![](../.gitbook/assets/2%20%281%29.png)
+![](../.gitbook/assets/2%20%282%29.png)
 
 ### Step 2
 
@@ -123,7 +123,7 @@ To Guess Number:
 
 #### Code Script in Blocks Editor
 
-![](../.gitbook/assets/6%20%281%29.png)
+![](../.gitbook/assets/6%20%282%29.png)
 
 Add the code into the Block Editor. Click the block in the sprite’s window to make certain it works as expected.
 
@@ -143,7 +143,7 @@ So now our block will pick a random number, say it, and add it to a list. This d
 
 Expand the “Guess Number” function in the guessing sprite so that it only says the guess and adds it to the list as long as the value of myGuess is not already in the list. This block with an IF block may come in handy.
 
-![](../.gitbook/assets/8%20%282%29.png)
+![](../.gitbook/assets/8%20%283%29.png)
 
 #### Try It \#2
 
@@ -153,7 +153,7 @@ Run your game. Make sure the check mark beside your guesses list is checked, and
 
 Fix the game so that the guessing sprite doesn’t freeze! The way we have it now, once the guessing sprite wins, the guesses list is NOT cleared. The sprite should reset the guess list after winning! In addition, you’ll notice that guesses does not reset when you restart the game. The list should also be cleared when the game starts. On top of that, all of the variables should be reset when the game starts!
 
-This block should help: ![](../.gitbook/assets/9.png)
+This block should help: ![](../.gitbook/assets/9%20%281%29.png)
 
 #### Try It \#3
 

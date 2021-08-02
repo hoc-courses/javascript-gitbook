@@ -2,12 +2,13 @@
 
 * [Intro to Programming](README.md)
 
-## CS Fundamentals
+## CS Fundamentals with Snap! <a id="cs-fundamentals"></a>
 
 ---
 
 * [The DRY Principal](dry-principle.md)
 * [Algorithms](algorithms.md)
+* [TODO](todo.md)
 
 ## JavaScript Intro <a id="javascript-intro-1"></a>
 
@@ -16,6 +17,7 @@
 * [BJC](bjc/README.md)
   * [Variables](bjc/variables.md)
   * [Loops](bjc/loops.md)
+  * [For Loops Guide](bjc/for-loops-guide.md)
   * [Operators](bjc/operators.md)
   * [Functions](bjc/functions-1.md)
   * [Conditionals](bjc/conditionals.md)
@@ -24,10 +26,16 @@
   * [Introduction to Lists](bjc/introduction-to-lists.md)
   * [Higher Order Functions](bjc/higher-order-functions.md)
   * [Swap Two List Values](bjc/swap-two-list-values.md)
+  * [Drawing](bjc/drawing.md)
+* [Lab - Recursion](lab-recursion.md)
 * [Lab 1 - Snap Intro](lab-1-welcome-to-visual-programming.md)
 * [Lab 2 - Build Your Own Blocks](lab-2-build-your-own-blocks/README.md)
   * [Lab - Build Your Own Blocks](lab-2-build-your-own-blocks/lab-build-your-own-blocks.md)
   * [Lab - Build a Wall](lab-2-build-your-own-blocks/lab-build-a-wall.md)
+  * [Draw Your Own Square](lab-2-build-your-own-blocks/draw-your-own-square.md)
+  * [Draw a Polygon](lab-2-build-your-own-blocks/draw-a-polygon.md)
+  * [Draw Flower](lab-2-build-your-own-blocks/draw-flower.md)
+  * [The Random Block](lab-2-build-your-own-blocks/the-random-block.md)
 * [Lab 3 - Guessing Game](lab-3-guessing-game/README.md)
   * [Lab 3 - Random Numbers and Conditionals](lab-3-guessing-game/lab-3-random-numbers-and-conditionals.md)
 * [Hangman](hangman.md)
@@ -49,8 +57,7 @@
   * [Events](javascript-intro/events.md)
   * [Abstraction](javascript-intro/abstraction.md)
 * [DOM](dom.md)
-* [Untitled](untitled.md)
-* [Snap! Overview](scratch-overview.md)
+* [Other Courses](untitled.md)
 * [Shapes, Brick Wall Lab](shapes-brick-wall-lab.md)
 * [Number Guessing Game](number-guessing-game.md)
 * [Boolean Operators](boolean-operators.md)

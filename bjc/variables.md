@@ -2,7 +2,7 @@
 
 Variables are named spaces in memory that your program can access. You can set and modify the values that are contained in these named spaces. To visualize a variable’s name space think of mail slots in a large mail room. Your computer has memory that the program is going to use to create and store information. When you create a variable, you are assigning one of the “slots” of memory to a name and then can put a value in that slot and modify it as needed.
 
-![](../.gitbook/assets/19.png)
+![](../.gitbook/assets/19%20%281%29.png)
 
 Why create variables? Variables allow the programmer to make the value modifiable in the script. For example, you want to be able to update a score variable as the player wins/loses in a game. You will see many different uses of variables during this course.
 
@@ -34,11 +34,11 @@ You have multiple blocks to create and manipulate variables in the Variables tab
 
 Sometimes you need a variable in your script, but you don’t want it to step through consecutive integer values as in the for block. A more general way to handle variables uses the block
 
-![](../.gitbook/assets/23%20%281%29.png)
+![](../.gitbook/assets/23%20%282%29.png)
 
 to create a variable, and the block
 
-![](../.gitbook/assets/24.png)
+![](../.gitbook/assets/24%20%281%29.png)
 
 to give that variable a value. Both of these blocks are in the Variables palette. Here’s an example:
 
@@ -71,4 +71,10 @@ This can be dragged into scripts just like the orange variable ovals in the for 
 The checkbox to the left of the variable block determines whether or not the value of the variable is displayed on the stage. The variable watcher \(which is what that display is called\) can be useful for debugging, or can be displayed permanently so that the user of your project can see the score, or whatever you have in the variable. By right-clicking on the watcher, you can change the format in which it appears on the screen.
 
 When you make a global variable, you also get a “Delete a variable” button that can be used for the obvious purpose.
+
+
+
+![](../.gitbook/assets/image%20%2890%29.png)
+
+![](../.gitbook/assets/image%20%2874%29.png)
 
