@@ -15,6 +15,7 @@
 
 * [BJC](bjc/README.md)
   * [Functions](bjc/functions-1.md)
+* [Conditionals](conditionals.md)
 * [Lab 1: Welcome to Visual Programming](lab-1-welcome-to-visual-programming.md)
 * [LAB - Build Your Own Blocks](lab-build-your-own-blocks.md)
 * [Lab - Build a Wall](lab-build-a-wall.md)
