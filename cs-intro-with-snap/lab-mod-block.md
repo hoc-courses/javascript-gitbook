@@ -20,7 +20,7 @@ Use this `divisible by?` predicate to build a predicate that tests whether its i
 
  In a later lab, you can use your `even?` block to draw a [brick wall](lab-build-a-wall.md) because the even and odd numbered rows are different.
 
-![](../.gitbook/assets/image%20%2870%29.png)
+![](../.gitbook/assets/image%20%2875%29.png)
 
 
 

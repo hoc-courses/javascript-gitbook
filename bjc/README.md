@@ -1,6 +1,14 @@
 # BJC
 
-#### Original
+#### [http://scratch.redware.com/scratch/iteration](http://scratch.redware.com/scratch/iteration)
+
+#### 
+
+#### Newer Version, looks like it's taught at Berkeley
+
+{% embed url="https://beautyjoy.github.io/bjc-r/course/cs10\_sp21.html" %}
+
+#### Older Version - not as good
 
 {% embed url="https://bjc.edc.org/bjc-r/course/bjc4nyc.html" %}
 

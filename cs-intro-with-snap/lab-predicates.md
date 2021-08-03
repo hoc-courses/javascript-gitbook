@@ -8,14 +8,14 @@ In Snap!, predicates are represented by hexagonal blocks. **They compute the** _
 
 Predicates ask a true/false question such as "Is this sprite touching the sprite called 'Leader'?"
 
-![](../.gitbook/assets/image%20%2884%29.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 
  Use one or more of the following _relational operators_ to create a script that lets you use your mouse to write on the stage in two colors depending on the mouse's position on the stage.  
 ![less than, equal to, and greater than predicate blocks](https://bjc.edc.org/bjc-r/img/2-complexity/relations.jpg)
 
  Make the sprite draw only if the mouse button is down, so that you can draw disconnected shapes. You'll need to uncheck the "draggable" box above the scripting area before you try this \(so that Snap! doesn't think you are trying to drag the sprite when you click\).
 
-![](../.gitbook/assets/image%20%28110%29.png)
+![](../.gitbook/assets/image%20%28117%29.png)
 
   
 You'll probably want to use the ![mouse down? predicate block](https://bjc.edc.org/bjc-r/img/blocks/mouse-down.png) block, which you can find in the Sensing palette.
@@ -123,5 +123,41 @@ Changing the Boolean expression in the `if` block changes the picture. Discuss w
 
 Match the Boolean expressions with the pictures. There are more expressions than pictures.
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
+
+
+
+
+
+### Building a Useful Collection of Predicates
+
+Some tests—for example, a test to see if a number is even or if a letter is a vowel—are needed so often that you won't want to re-create them each time you need them. In this activity, you will create a set of tools that you may use often, especially for complicated programming tasks.
+
+You've already built a predicate `vowel?` to test for vowels and a predicate to test for even numbers. Snap has a built-in test to see if something is a number, but not a test to see if the number is an integer, and often you will want that.
+
+1. Snap has a "greater than" operator \(`>`\), an "equal" operator \(`=`\), and a "less than" operator \(`<`\) built in, but doesn't have a "greater than or equal to" \(`>=`\) operator.
+
+   ![5 &amp;gt;= 3](https://bjc.edc.org/Sept2015/bjc-r/img/prog/5ge3.png)![5 &amp;gt;= 5](https://bjc.edc.org/Sept2015/bjc-r/img/prog/5ge5.png)![3 &amp;gt;= 5](https://bjc.edc.org/Sept2015/bjc-r/img/prog/3ge5.png)
+
+   Build ![a greater than or equal to b](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/a-greater-than-or-equal-to-b.png) and test it well to make sure it does what you expect.
+
+   ![creating an infix predicate](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/creating-an-infix-predicate.gif)
+
+   * When you type the block's title in the **Make a block** dialog, choose the hexagonal _predicate_ block shape.
+   * To set the block's name `>=` between the two input slots, use the left plus sign in the Block Editor. ![left plus sign](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/left-plus-sign.png)
+   * You may find one or more of these Boolean operators helpful:
+
+     ![and, or, not blocks](https://bjc.edc.org/Sept2015/bjc-r/img/prog/Booleans.png)
+
+   There are several correct ways to do this! As long as your block gives the right `true` and `false` answers, it's correct.
+
+ Operators like ![a times b](https://bjc.edc.org/Sept2015/bjc-r/img/blocks/a-times-b.png) that stand in between their two inputs are called _infix_ operators. Operators like ![sqrt of](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/sqrt%20of%20120%C2%A0%C3%97%C2%A028%20pixels.png) that stand before their inputs are called _prefix_ operators. When we write _n_! to mean "_n_ factorial," the "!" is a _postfix_ operator—it comes after its input ![n factorial](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/postfix%20factorial%2047%C2%A0%C3%97%C2%A027%20pixels.png) In Snap, it is possible to mix the types, as you will do in the next problem.
+
+1. Build a predicate that tests to see if its input is an integer. ![integer?-4=\(with-result-true\)](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/integer-4%28with-result-true%29.png) ![integer?-4-point-1\(with-result-false\)](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/integer-4-point-1%28with-result-false%29.png)
+
+   You may find ![round a number](https://bjc.edc.org/Sept2015/bjc-r/img/blocks/round-a-number.png) useful.
+
+2. Build a block that tells whether a given number is between two other given numbers. ![number-between-two-others\(with-result-false\)](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/number-between-two-others%28with-result-false%29.png) ![number-between-two-others\(with-result-true\)](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/number-between-two-others%28with-result-true%29.png). You can decide whether "between," for your purposes, will _include_ the two boundary numbers or not.
+3. Write a ![weekend?](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/weekend.png) block that reports whether a given day is a weekend. Let's assume that only Saturday and Sunday are part of the weekend.
+4. Write a ![weekday?](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/weekday.png) block. You could write this without your ![weekend?](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/weekend.png) block, but it'll be much easier \(and cleaner code!\) if you use ![weekend?](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/weekend.png) as part of this new block.
 

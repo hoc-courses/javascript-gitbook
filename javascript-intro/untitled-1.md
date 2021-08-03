@@ -2,7 +2,7 @@
 
 Functions are blocks of code that we can use in our program to do something. They can be thought of as small actions or verbs for the task that they perform in a program.
 
-![](../.gitbook/assets/image%20%2865%29.png)
+![](../.gitbook/assets/image%20%2870%29.png)
 
 ### Input - Arguments
 
@@ -42,13 +42,13 @@ In JavaScript, the function to ask the user a question is called `prompt`. And j
 const answer = prompt("What's your name?");
 ```
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 ### Using the Return Value
 
 Once we have received the return value from a function we can then proceed to do something with that value.
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 In JavaScript, the equivalent of the join function is a special string formatting syntax that can plug in the values of variables to a string template.
 

@@ -38,7 +38,7 @@ You have multiple blocks to create and manipulate variables in the Variables tab
 
 The **set** command block is used to initialize a variable, not to update its value.
 
-![](../.gitbook/assets/image%20%2872%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
 #### Updating/Changing Variables Example
 
@@ -89,6 +89,38 @@ This can be dragged into scripts just like the orange variable ovals in the for 
 The checkbox to the left of the variable block determines whether or not the value of the variable is displayed on the stage. The variable watcher \(which is what that display is called\) can be useful for debugging, or can be displayed permanently so that the user of your project can see the score, or whatever you have in the variable. By right-clicking on the watcher, you can change the format in which it appears on the screen.
 
 When you make a global variable, you also get a “Delete a variable” button that can be used for the obvious purpose.
+
+
+
+
+
+### Script Variables
+
+You have used variables that the `for` block _gave_ you. ![squiral script](https://bjc.edc.org/Sept2015/bjc-r/img/looping/squirral-script.png)
+
+You also _created_ variables ![plural-hat-block-and-first-line-only](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/plural-hat-block-and-first-line-only.png) as inputs to blocks that you made.
+
+A script variable exists only while the script is running.Sometimes you will need _extra_ variables to store information temporarily while your script is running. The ![script variables](https://bjc.edc.org/Sept2015/bjc-r/img/prog/scriptvar.png) block lets you do that.
+
+1. Watch the video \(or read the instructions that follow it\) to see how to create, name, and set the value of a script variable.
+
+   ![movie showing how to choose the name of a script variable and set its initial value](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/ScriptVariables.gif)
+
+   1. To create the variable, use ![script variables](https://bjc.edc.org/Sept2015/bjc-r/img/prog/scriptvar.png) \(in the variables tab, of course\).
+   2. To name the variable, click on the orange _`a`_ and type the name you want.
+   3. To set your variable's value, use ![set](https://bjc.edc.org/Sept2015/bjc-r/img/prog/set.png). The down-arrow lets you select the variable you want \(in this example, there's only one variable to choose\).
+   4. Then set its value.
+
+2. This script draws polygons with a random number of sides.
+
+   ![random polygon script](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/Random-Polygon-script_372x300.png)This script uses the value of `sides` twice, once in the `repeat` block to say how many times the `move`-and-`turn` combination should be done, and once in computing the angle to `turn`.
+
+   1. Make the script and run it several times to see what it draws.
+   2. **Check your understanding:** Why does it make sense to start the range of possible random numbers at 3?
+   3. **Check your understanding:** Where did the formula ![360/sides](https://bjc.edc.org/Sept2015/bjc-r/img/prog/360-over-sides.png) come from?
+
+3. **Challenge:** Modify the script so that it also picks a _size_ randomly, from 30 through 60 using _only multiples of 10_.There are two ways to create a second script variable. You could use another `script variables` block ![script-variables-sides-script-variables-size](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/script-variables-sides-script-variables-size.png) or you could extend the one block, using the right-arrow ![adding a second script variable](https://bjc.edc.org/Sept2015/bjc-r/img/2-conditionals-abstraction-testing/second-script-variables-movie.gif)"U2Lab2Polygons"![save your work as U2Lab2Polygons](https://bjc.edc.org/Sept2015/bjc-r/img/icons/save-this-as.png)
+4. **Analyzing and debugging:** Instead of setting a script variable, this script just uses the `pick random` block in the two places that need the random number. Before you build and run this script, try to figure out what is likely to go wrong. ![buggy random polygon](https://bjc.edc.org/Sept2015/bjc-r/img/prog/bad-random-poly.png)
 
 
 
