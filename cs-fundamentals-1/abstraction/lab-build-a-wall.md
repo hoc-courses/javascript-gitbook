@@ -1,10 +1,10 @@
-# Lab - Abstraction - Wall
+# Brick Wall - Other Source
 
 ### Build a Wall
 
 We are going to draw this brick wall.
 
-![](../.gitbook/assets/34%20%282%29.png)
+![](../../.gitbook/assets/34%20%282%29.png)
 
 This project is not just about drawing; it is also about practicing abstraction. You will draw the following brick wall by implementing the blocks listed below.
 
@@ -12,7 +12,7 @@ _Note: You must implement these blocks and adhere to the abstraction described b
 
 There are two kinds of rows in this brick wall:
 
-![](../.gitbook/assets/35%20%281%29.png)
+![](../../.gitbook/assets/35%20%281%29.png)
 
 The big idea is that there are three levels of abstraction. Start creating your new blocks at Level 3, then create for Level 2 \(using your new blocks from Level 1\), and then create Level 1 using your Level 2 blocks.
 
@@ -53,11 +53,11 @@ Note: Whenever you need to refer to a number in the program, use a variable. Thi
 
 In summary, you should implement the following blocks:
 
-![](../.gitbook/assets/36.png)
+![](../../.gitbook/assets/36.png)
 
 ### Resources
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2882%29.png)
 
 {% embed url="https://youtu.be/bons028VLEU" %}
 

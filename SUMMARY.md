@@ -1,13 +1,9 @@
 # Table of contents
 
 * [Intro to Programming](README.md)
-
-## CS Fundamentals with Snap! <a id="cs-fundamentals"></a>
-
----
-
-* [CS Fundamentals](cs-fundamentals-1/README.md)
-  * [Snap Introduction](cs-fundamentals-1/snap-introduction.md)
+* [CS Fundamentals w/Snap!](cs-fundamentals-1/README.md)
+  * [Harvard CS50 Intro](cs-fundamentals-1/harvard-cs50-intro.md)
+  * [Snap! Introduction](cs-fundamentals-1/snap-introduction.md)
   * [Repeat Loop](cs-fundamentals-1/repeat-loop.md)
   * [For Loop](cs-fundamentals-1/for-loop.md)
   * [Random Block](cs-fundamentals-1/random-block.md)
@@ -27,19 +23,7 @@
     * [Simplifying a Tic-Tac-Toe Board](cs-fundamentals-1/abstraction/simplifying-a-tic-tac-toe-board.md)
     * [Valid Date?](cs-fundamentals-1/abstraction/valid-date.md)
     * [Brick Wall](cs-fundamentals-1/abstraction/brick-wall.md)
-* [Abstraction](abstraction/README.md)
-  * [More Work With Reports](abstraction/more-work-with-reports/README.md)
-    * [The max block](abstraction/more-work-with-reports/the-max-block.md)
-    * [Input Types](abstraction/more-work-with-reports/input-types.md)
-  * [Abstraction](abstraction/abstraction-1.md)
-* [CS Intro with Snap!](cs-intro-with-snap/README.md)
-  * [Harvard CS50 Intro](https://youtu.be/YoXxevp1WRQ)
-  * [Algorithms](cs-intro-with-snap/algorithms.md)
-  * [Lab - Refactoring](cs-intro-with-snap/lab-drawing-polygons.md)
-  * [Lab - Repeat Loop](cs-intro-with-snap/lab-repeat-loop.md)
-  * [Lab - Abstraction - Wall](cs-intro-with-snap/lab-build-a-wall.md)
-  * [Lab - Abstraction - game board](cs-intro-with-snap/lab-abstraction-game-board.md)
-  * [Lab - Guessing Game](cs-intro-with-snap/lab-3-random-numbers-and-conditionals.md)
+    * [Brick Wall - Other Source](cs-fundamentals-1/abstraction/lab-build-a-wall.md)
 
 ## JavaScript Intro <a id="javascript-intro-1"></a>
 
@@ -68,4 +52,5 @@
   * [Introduction to Lists](bjc/introduction-to-lists.md)
   * [Higher Order Functions](bjc/higher-order-functions.md)
   * [Swap Two List Values](bjc/swap-two-list-values.md)
+* [Algorithms](algorithms.md)
 

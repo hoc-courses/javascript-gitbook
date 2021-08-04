@@ -75,7 +75,7 @@ Scratch uses the `=` symbol to test for equality instead of assignment, which is
 
 If your condition involves more than one criteria, then you can use logical operators to string them together to build a larger boolean condition.
 
-![](../.gitbook/assets/image%20%28122%29.png)
+![](../.gitbook/assets/image%20%28123%29.png)
 
 In JavaScript the **logical and operator** is two ampersands **&&.**
 

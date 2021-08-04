@@ -69,7 +69,7 @@ btnCheckGuess_Click()
 * They provide a visual representation of the algorithm or process. 
 * They describe the inputs, processes and outputs of the program that are needed to successfully complete the project.
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](.gitbook/assets/image%20%2838%29.png)
 
 ### Errors in Algorithms
 

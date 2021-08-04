@@ -1,4 +1,4 @@
-# Snap Introduction
+# Snap! Introduction
 
 Let’s first look at the IDE \(Integrated Development Environment\). You should see the following arrangement of regions in the window:
 

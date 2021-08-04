@@ -1,2 +1,2 @@
-# CS Fundamentals
+# CS Fundamentals w/Snap!
 

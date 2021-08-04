@@ -1,2 +1,0 @@
-# CS Intro with Snap!
-
