@@ -10,8 +10,6 @@ In JavaScript, we just declare a function and it can optionally return a value, 
 
 Functions are blocks of code that we can use in our program to do something. They can be thought of as small actions or verbs for the task that they perform in a program.
 
-![](../.gitbook/assets/image%20%2872%29.png)
-
 ### Input - Arguments
 
 The inputs to functions are called **arguments**. A function isn't required to have inputs. They are used when the function needs additional information to complete its task.

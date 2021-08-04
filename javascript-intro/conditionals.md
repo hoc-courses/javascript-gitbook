@@ -2,7 +2,7 @@
 
 ### If
 
-A condition looks like a fork in the road which allows you to choose a path to take based on some test.
+A condition looks like a fork in the road which allows you to choose a path to take based on some test. 
 
 ![](../.gitbook/assets/image%20%28103%29.png)
 
