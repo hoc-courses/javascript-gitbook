@@ -87,7 +87,7 @@ The script variable secret number exists only until the script finishes running.
 
 Look at the script below. The computer chooses a random number and then asks the player to guess the random number.
 
-![](../.gitbook/assets/image%20%28125%29.png)
+![](../.gitbook/assets/image%20%28126%29.png)
 
 ### Pseudocode
 
@@ -156,7 +156,7 @@ Right now, the sprite always picks a number between 1 and 10. Change this so tha
 
 Now let’s keep track of how many guesses it takes before the player guesses the right number. You will need a new variable for this task and will need to add to it every time a guess occurs.
 
-![](../.gitbook/assets/image%20%28128%29.png)
+![](../.gitbook/assets/image%20%28129%29.png)
 
 ![](../.gitbook/assets/image%20%2871%29.png)
 

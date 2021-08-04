@@ -30,7 +30,7 @@ Even more importantly, using `repeat` makes the _structure_ of the program clear
 
 ![](../.gitbook/assets/image%20%2813%29.png)
 
-![](../.gitbook/assets/image%20%28131%29.png)
+![](../.gitbook/assets/image%20%28132%29.png)
 
 ### Taking it Further
 
