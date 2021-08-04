@@ -2,17 +2,25 @@
 
 ## Don't Repeat Yourself - let Snap! do it for you!
 
-We can use the ![empty repeat-n block](https://beautyjoy.github.io/bjc-r/img/blocks/repeat.png) block to make drawing shapes a lot easier! You can see below a script to draw a square.
+We can use the ![empty repeat-n block](https://beautyjoy.github.io/bjc-r/img/blocks/repeat.png) block to make drawing shapes a lot easier! You can see below a script to draw a square. It is, of course, much easier to create this script..
 
-![Square example image](https://beautyjoy.github.io/bjc-r/img/prog/prog-create-square-code-BYOB.gif)
+  
+![repeat 4 \(move 50 steps, turn right 90 degrees\)](https://bjc.edc.org/Sept2015/bjc-r/img/1-introduction/repeat-4%28move-50-turn-right-90%29.png)  
 
-\(You can click on the script above to open the script in Snap! in another window. This is indicated by the little ![](https://beautyjoy.github.io/bjc-r/img/web/external-link.png) icon that follows it.\)
 
-There are three different numeric values in the script—`4`, `100`, and `90`—that you can think of as parameters that change the resulting picture. Play with the script to understand how each number contributes to the "squareness" of the shape that is drawn.
+than to create this one:
 
-## Check For Understanding - Nested Loops
+![](https://bjc.edc.org/Sept2015/bjc-r/img/1-introduction/move-50-turn-right-90-%284-times%29.png)
 
-{% embed url="https://beautyjoy.github.io/bjc-r/cur/programming/intro/drawing/repeat-self-test.html?topic=berkeley\_bjc%2Fintro\_pair%2F2-loops-variables.topic&course=cs10\_sp19.html&novideo&noreading&noassignment" %}
+Even more importantly, using `repeat` makes the _structure_ of the program clearer. This is essential to good coding. Clearly structured code is easier to understand and easier to debug \(to catch and fix errors\). In the longer script above \(without `repeat`\), we'd have to count the parts to see if it's right. And it would be very easy to make a mistake if we were drawing a 20-sided figure instead of a 4-sided one!
+
+Here are four pictures.  
+![Square with sides alternating red and blue](https://bjc.edc.org/Sept2015/bjc-r/img/1-introduction/Square-alternating-red-and-blue.png) ![6-sided figure, sides alternating red-blue](https://bjc.edc.org/Sept2015/bjc-r/img/1-introduction/6-sided-figure-alternating-red-and-blue.png) ![8-sided figure, sides alternating red-blue](https://bjc.edc.org/Sept2015/bjc-r/img/1-introduction/8-sided-figure-alternating-red-and-blue.png) ![12-sided figure, sides alternating 3 red 3 blue](https://bjc.edc.org/Sept2015/bjc-r/img/1-introduction/12-sided-figure-alternating-3-red-and-3-blue.png)  
+
+
+Which one\(s\) of these pictures could be drawn by running the following script? 
+
+![repeat 4, red move turn, blue move turn](https://bjc.edc.org/Sept2015/bjc-r/img/1-introduction/non-pseudo.png)
 
 ## Drawing Regular Polygons with Repeat
 
@@ -33,5 +41,7 @@ Save the scripts as you go because, in a following activity, you'll be trying to
 
 {% embed url="https://beautyjoy.github.io/bjc-r/cur/programming/intro/drawing/angles-self-test-2.html?1&topic=berkeley\_bjc%2Fintro\_pair%2F2-loops-variables.topic&course=cs10\_sp19.html&novideo&noreading&noassignment" %}
 
+## Check For Understanding - Nested Loops
 
+{% embed url="https://beautyjoy.github.io/bjc-r/cur/programming/intro/drawing/repeat-self-test.html?topic=berkeley\_bjc%2Fintro\_pair%2F2-loops-variables.topic&course=cs10\_sp19.html&novideo&noreading&noassignment" %}
 

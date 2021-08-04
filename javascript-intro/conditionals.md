@@ -4,7 +4,7 @@
 
 A condition looks like a fork in the road which allows you to choose a path to take based on some test.
 
-![](../.gitbook/assets/image%20%2896%29.png)
+![](../.gitbook/assets/image%20%2897%29.png)
 
 Here is the Scratch example translated to JavaScript. 
 
@@ -75,7 +75,7 @@ Scratch uses the `=` symbol to test for equality instead of assignment, which is
 
 If your condition involves more than one criteria, then you can use logical operators to string them together to build a larger boolean condition.
 
-![](../.gitbook/assets/image%20%28121%29.png)
+![](../.gitbook/assets/image%20%28122%29.png)
 
 In JavaScript the **logical and operator** is two ampersands **&&.**
 

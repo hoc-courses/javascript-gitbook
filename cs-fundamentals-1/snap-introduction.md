@@ -70,8 +70,6 @@ Here's a picture:
 
 ![Coordinate Grid](https://beautyjoy.github.io/bjc-r/img/topic1/topic1_coordgrid.png)
 
-
-
 The black sprite is at the center of the stage, called the origin, with coordinates \(0, 0\). The green sprite is to the right of the origin, so its x position is positive. The green sprite is also below the origin, so its y position is negative. Each grid line above represents 20 steps, so the green sprite's coordinates are \(140, -100\). 
 
 **Try this:** What are the coordinates of the red sprite?

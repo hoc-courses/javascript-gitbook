@@ -2,7 +2,7 @@
 
 ### Looping Forever
 
-![](../.gitbook/assets/image%20%28128%29.png)
+![](../.gitbook/assets/image%20%28129%29.png)
 
 There isn't a direct equivalent of the Scratch forever loop in JavaScript, but the while loop is pretty close. A key difference is that the  JavaScript while loop is constantly testing a condition to see whether it should continue. Here are the key rules:
 

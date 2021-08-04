@@ -41,9 +41,29 @@ Note that we changed the name of the variable, by clicking on the orange oval _w
 
 This shape is called a "squiral" — a square spiral. Do you see why it spirals outward? The length value in the ![](https://beautyjoy.github.io/bjc-r/img/blocks/move.png) varies between repetitions.
 
-Try changing the turning angle to other numbers: 92, 126, etc. People might pay cash money for some of these pictures!  
+Try changing the turning angle to other numbers: 92, 126, etc.   
   
 Also, try changing the turning angle and the move length to see how close you can get to a smooth spiral:  
   
 ![spiral](https://beautyjoy.github.io/bjc-r/img/prog/spiral.png)
+
+## Extra Challenge
+
+1. Predict what the following script will produce and then build the script to test your hypothesis.
+
+![](../.gitbook/assets/image%20%2872%29.png)
+
+2. Build the following:
+
+* Build a **nest squares** block that uses a **for loop** block and your **draw polygon** block to draw nested squares. Give it an input so that it will draw whatever number of squares you specify, with each square larger than the previous.
+* Build a **nest polygons** block that accepts the number of polygons and the number of sides for the polygons.
+* Build a script that draws 12 regular polygons, each with one more side than the previous one, as shown below.
+
+![](https://github.com/hoc-labs/images/blob/main/polygons.png?raw=true)
+
+3. Find a way to use **for loop** to nest squares this way. 
+
+![](https://github.com/hoc-labs/images/blob/main/concentric-squares.png?raw=true)
+
+Build your block with two inputs that let you specify how many squares the design will contain and how much bigger each square will be than the previous one.
 
