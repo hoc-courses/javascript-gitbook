@@ -17,13 +17,11 @@
   * [Custom Predicate Blocks](cs-fundamentals-1/custom-predicate-blocks.md)
   * [Number Guessing Game](cs-fundamentals-1/number-guessing-game.md)
   * [The DRY Principal](cs-fundamentals-1/dry-principle.md)
-  * [Abstraction](cs-fundamentals-1/abstraction/README.md)
-    * [Composition of Functions](cs-fundamentals-1/abstraction/composition-of-functions.md)
-    * [Sum Things Up](cs-fundamentals-1/abstraction/sum-things-up.md)
-    * [Simplifying a Tic-Tac-Toe Board](cs-fundamentals-1/abstraction/simplifying-a-tic-tac-toe-board.md)
-    * [Valid Date?](cs-fundamentals-1/abstraction/valid-date.md)
-    * [Brick Wall](cs-fundamentals-1/abstraction/brick-wall.md)
-    * [Brick Wall - Other Source](cs-fundamentals-1/abstraction/lab-build-a-wall.md)
+  * [Larger Tasks](cs-fundamentals-1/larger-tasks/README.md)
+    * [Simplifying a Tic-Tac-Toe Board](cs-fundamentals-1/larger-tasks/simplifying-a-tic-tac-toe-board.md)
+    * [Valid Date?](cs-fundamentals-1/larger-tasks/valid-date.md)
+    * [Brick Wall](cs-fundamentals-1/larger-tasks/brick-wall.md)
+    * [Brick Wall - Other Source](cs-fundamentals-1/larger-tasks/lab-build-a-wall.md)
 
 ## JavaScript Intro <a id="javascript-intro-1"></a>
 

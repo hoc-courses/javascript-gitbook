@@ -49,11 +49,11 @@ Also, try changing the turning angle and the move length to see how close you ca
 
 ## Extra Challenge
 
-1. Predict what the following script will produce and then build the script to test your hypothesis.
+**Predict what the following script will produce** and then build the script to test your hypothesis.
 
 ![](../.gitbook/assets/image%20%2872%29.png)
 
-2. Build the following:
+**Build the following**
 
 * Build a **nest squares** block that uses a **for loop** block and your **draw polygon** block to draw nested squares. Give it an input so that it will draw whatever number of squares you specify, with each square larger than the previous.
 * Build a **nest polygons** block that accepts the number of polygons and the number of sides for the polygons.
@@ -61,9 +61,21 @@ Also, try changing the turning angle and the move length to see how close you ca
 
 ![](https://github.com/hoc-labs/images/blob/main/polygons.png?raw=true)
 
-3. Find a way to use **for loop** to nest squares this way. 
+3. Use a **for loop** to nest squares this way. 
 
 ![](https://github.com/hoc-labs/images/blob/main/concentric-squares.png?raw=true)
 
 Build your block with two inputs that let you specify how many squares the design will contain and how much bigger each square will be than the previous one.
+
+
+
+#### Find the Bugs
+
+Now let's consider a slightly more complicated block that makes use of a loop. It accepts two numbers as inputs \(`start` and `end`\) and finds the sum of all of the numbers in the range from `start` to `end`, inclusive.![sum of nums in a range](https://beautyjoy.github.io/bjc-r/img/blocks/sum-of-numbers-between-8-and-10.gif)
+
+When `start = 8` and `end = 10`, the value reported by this function should be `27` \(8+9+10\). However, the attempts at a solution shown below have some bugs. See if you can fix the bugs in the code below so that each version reports the correct sum:
+
+_Note:_ click on any of the pictures to go to a Snap_!_ file containing the code.
+
+[![buggy sum of nums set block](https://beautyjoy.github.io/bjc-r/img/debugging/set-bug-sum-of-range.png)![buggy sum of nums no report](https://beautyjoy.github.io/bjc-r/img/debugging/buggy-sum-of-nums-no-report.png)![buggy sum of nums repeat until](https://beautyjoy.github.io/bjc-r/img/debugging/buggy-sum-of-nums-repeat-until.png)](http://snap.berkeley.edu/snapsource/snap.html#open:https://beautyjoy.github.io/bjc-r/prog/debugging/sum-of-nums-buggy.xml)
 
