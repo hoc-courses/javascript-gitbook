@@ -100,5 +100,3 @@ _\*\*\*\*_![](https://github.com/hoc-labs/images/blob/main/random-polys-2.png?ra
 
 {% embed url="https://www.youtube.com/watch?v=qLU3PtaG3ww" %}
 
-
-
