@@ -1,6 +1,6 @@
 # Variables
 
-### Creating Variables
+## Creating/Assigning Variables
 
 In Snap! we saw that we could create a variable and assign it a value with the set block.
 
@@ -14,7 +14,7 @@ let counter = 0;
 
 Unlike lower level languages, we do not need to specify the data type of the variable. JavaScript will figure it out when the program is running.
 
-### Changing the Value of a Variable
+## Increment/Decrement a Numeric Variable
 
 ![](https://lh5.googleusercontent.com/dGRtH1EIwF96IQ0FyCv66s4DZHI7R5dXPJehYEFXEDh4fspph7vWpAwfdwyErOIzo8NsFS_J3LlPr2RfK-L-AiHHOJtu2QpOsgWdozHiZHzMjUIizteR-oIr2BEmpdfMEipyVAftGQ)
 

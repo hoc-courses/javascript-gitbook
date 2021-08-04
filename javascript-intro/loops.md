@@ -1,14 +1,10 @@
 # Loops
 
-### Looping Forever
+## Looping Forever
 
-![](../.gitbook/assets/image%20%28132%29.png)
+![](../.gitbook/assets/image%20%28137%29.png)
 
-There isn't a direct equivalent of the Snap! forever loop in JavaScript, but the while loop is pretty close. A key difference is that the  JavaScript while loop is constantly testing a condition to see whether it should continue. Here are the key rules:
-
-* you must have parenthesis after the while keyword
-* you must have a boolean condition within the parenthesis
-* you use the curly braces to surround the code to execute if the condition is true.
+There isn't a direct equivalent of the Snap! forever loop in JavaScript, but the while loop is pretty close. 
 
 ```javascript
 while (true) {
@@ -16,11 +12,17 @@ while (true) {
 }
 ```
 
-### Looping a Finite Number of Times
+A key difference is that the  JavaScript while loop is constantly testing a condition to see whether it should continue. Here are the key rules:
+
+* you must have parenthesis after the while keyword
+* you must have a boolean condition within the parenthesis
+* you use the curly braces to surround the code to execute if the condition is true \(the curly braces are not required if there is only a single statement\).
+
+## Looping a Finite Number of Times
 
 Whenever you want to count to a pre-defined number of times in Scratch you can use the repeat loop.
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 In JavaScript we have two choices: the `while` loop and the `for` loop.
 
@@ -38,7 +40,7 @@ while (i<50) {
 
 #### For Loop
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 With the `for` loop, the loop includes the syntax for declaring and incrementing the variable that will count the number of iterations through the loop. It allows you to express the steps more concisely.
 

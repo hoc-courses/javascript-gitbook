@@ -90,5 +90,5 @@ Changing the predicate in the `if` block changes the picture. Discuss why the pr
 
 Match the predicate with the pictures. There are more expressions than pictures.
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 

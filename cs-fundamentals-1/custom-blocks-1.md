@@ -6,7 +6,7 @@ In most programming languages, we can take individual instructions and put them 
 
 A **code block** is a named sequence of instructions that may take inputs and may return a value. 
 
-![](../.gitbook/assets/image%20%2891%29.png)
+![](../.gitbook/assets/image%20%2893%29.png)
 
 * Code blocks perform a function for us.
 * We can create our code block once and use it as many times as we want without having to re-write the code. 
