@@ -2,7 +2,7 @@
 
 ### Creating Variables
 
-In Scratch we saw that we could create a variable and assign it a value with the set block.
+In Snap! we saw that we could create a variable and assign it a value with the set block.
 
 ![](https://lh5.googleusercontent.com/HuXPos2yNMmc4bqQiKZN3ydBAL1xiPPDhUTaxeYN1E6dbH9AAyKrFBp3eaTf8l0hyOWITuGNE_lQeZ323gxw9OmjkTrYflOd0FpkDB0e-ZaJYcqgKsudTqisIPQtqwR9VvDTkHy3Sg)
 

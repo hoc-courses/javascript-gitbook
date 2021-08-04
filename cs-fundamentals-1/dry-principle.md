@@ -16,11 +16,11 @@ Writing/copying and pasting the same code or logic again and again.
 
 Let's start out with a simple example. We want to draw a square. Here is an algorithm for drawing a square.
 
-![](../.gitbook/assets/image%20%28116%29.png)
+![](../.gitbook/assets/image%20%28118%29.png)
 
 Now let's draw a series of squares.
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2847%29.png)
 
 Obviously, this is violating the DRY principle. There are a few common programming techniques to allow you to adhere to the DRY principle.
 
@@ -38,7 +38,7 @@ In the code below, we refactored the code into fewer instructions by utilizing t
 
 We can further refactor our code by adding another loop nested within the outer repeat block to repeat the drawing of each side of the square.
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 ### Procedures allow Abstraction
 
@@ -46,7 +46,7 @@ The main goal of abstraction is to handle complexity by hiding unnecessary detai
 
 We are going to apply that principle here to create a **command** block \(no return value\) that will be responsible for performing the instructions necessary to draw a square.
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 And now the code has been greatly simplified. We no longer need to think about the individual instructions necessary to draw a square. We can simply use the `drawSquare` command to perform the instructions whenever we need to draw a square.
 
@@ -68,5 +68,5 @@ Once the parameters are added, they can be used within the procedure by dragging
 
 And now we have our finished algorithm to draw a series of three squares.
 
-![](../.gitbook/assets/image%20%2865%29.png)
+![](../.gitbook/assets/image%20%2866%29.png)
 

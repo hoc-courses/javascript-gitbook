@@ -1,8 +1,16 @@
 # Functions
 
+In Snap! we were able to create custom blocks, which are equivalent to functions in JavaScript.  Snap! categorizes blocks into three types:
+
+* **commands** -  tells the computer to do something without returning a value.
+* **reporters** - returns a value.
+* **predicates** - a type of reporter, returns either true or false
+
+In JavaScript, we just declare a function and it can optionally return a value, and that value can be of any type, including a boolean.
+
 Functions are blocks of code that we can use in our program to do something. They can be thought of as small actions or verbs for the task that they perform in a program.
 
-![](../.gitbook/assets/image%20%2870%29.png)
+![](../.gitbook/assets/image%20%2871%29.png)
 
 ### Input - Arguments
 
@@ -48,7 +56,7 @@ const answer = prompt("What's your name?");
 
 Once we have received the return value from a function we can then proceed to do something with that value.
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 In JavaScript, the equivalent of the join function is a special string formatting syntax that can plug in the values of variables to a string template.
 

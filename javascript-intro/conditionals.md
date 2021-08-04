@@ -4,9 +4,9 @@
 
 A condition looks like a fork in the road which allows you to choose a path to take based on some test.
 
-![](../.gitbook/assets/image%20%2897%29.png)
+![](../.gitbook/assets/image%20%2899%29.png)
 
-Here is the Scratch example translated to JavaScript. 
+Here is the Snap! example translated to JavaScript. 
 
 ```javascript
 if (x<y) {
@@ -20,7 +20,7 @@ In the JavaScript code we're introducing a new piece of syntax, the curly braces
 
 We can also add an else block to the `if` statement if we want to follow an alternate code path when the condition is false.
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 ```javascript
 if (x<y) {
@@ -75,7 +75,7 @@ Scratch uses the `=` symbol to test for equality instead of assignment, which is
 
 If your condition involves more than one criteria, then you can use logical operators to string them together to build a larger boolean condition.
 
-![](../.gitbook/assets/image%20%28123%29.png)
+![](../.gitbook/assets/image%20%28125%29.png)
 
 In JavaScript the **logical and operator** is two ampersands **&&.**
 
@@ -91,9 +91,9 @@ else {
 
 The `if` condition could have been rewritten using the or logical operator.
 
-In JavaScript the **logical or operator** is two pipe symbols **\|\|**.
+In JavaScript the **logical or operator** is two pipe symbols **\|\|.**
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 ```javascript
 const age = prompt('What is your age?');

@@ -57,7 +57,7 @@ In summary, you should implement the following blocks:
 
 ### Resources
 
-![](../../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2883%29.png)
 
 {% embed url="https://youtu.be/bons028VLEU" %}
 

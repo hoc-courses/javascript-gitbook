@@ -36,7 +36,6 @@
   * [Conditionals](javascript-intro/conditionals.md)
   * [Loops](javascript-intro/loops.md)
   * [Events](javascript-intro/events.md)
-  * [Abstraction](javascript-intro/abstraction.md)
 * [DOM](dom.md)
 * [TODO](todo.md)
 * [BJC](bjc/README.md)

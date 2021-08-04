@@ -2,9 +2,9 @@
 
 ### Looping Forever
 
-![](../.gitbook/assets/image%20%28130%29.png)
+![](../.gitbook/assets/image%20%28132%29.png)
 
-There isn't a direct equivalent of the Scratch forever loop in JavaScript, but the while loop is pretty close. A key difference is that the  JavaScript while loop is constantly testing a condition to see whether it should continue. Here are the key rules:
+There isn't a direct equivalent of the Snap! forever loop in JavaScript, but the while loop is pretty close. A key difference is that the  JavaScript while loop is constantly testing a condition to see whether it should continue. Here are the key rules:
 
 * you must have parenthesis after the while keyword
 * you must have a boolean condition within the parenthesis
@@ -37,6 +37,8 @@ while (i<50) {
 ```
 
 #### For Loop
+
+![](../.gitbook/assets/image%20%2841%29.png)
 
 With the `for` loop, the loop includes the syntax for declaring and incrementing the variable that will count the number of iterations through the loop. It allows you to express the steps more concisely.
 
