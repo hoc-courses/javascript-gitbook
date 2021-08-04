@@ -6,6 +6,8 @@ The JavaScript code you write is known as scripts. Scripts can be included in yo
 
 The `<script>` element can either contain scripts directly \(internal\) or link to an external resource by using the `src` attribute \(external\). 
 
+
+
 **Internal** - you can just put the script inside the `<script>` element.
 
 ```markup

@@ -8,7 +8,7 @@ Functions are blocks of code that we can use in our program to do something. The
 
 The inputs to functions are called **arguments**. A function isn't required to have inputs. They are used when the function needs additional information to complete its task.
 
-For example, the “say” block in Scratch has a single input, the text to display on the screen.
+For example, the “say” block in Snap! has a single input, the text to display on the screen.
 
 ![](https://lh5.googleusercontent.com/0umy7NpnGxo03tlKa73tzeEaFKHMKWsydJ2cjo8RysDrhtVIwo0SZp9xswLsVEzk10gD5cxV2cMK4uudHl1Tom5IDXrWpkoya-PZo621NQ9PrKMGnw4Ak3emccN6chKIxY3OSueraA)
 
@@ -32,11 +32,11 @@ Functions can have two kinds of outputs:
 
 **Return values**, a value that is passed back to our program that we can use or store for later.
 
-The `ask` block in Scratch, for example, created an `answer` block.
+The `ask` block in Snap, for example, created an `answer` block.
 
 ![](https://lh6.googleusercontent.com/qcZr24T0NgkTUBnp0Y31z2z9cpO5p35VIBSxLtJv9Xds8de0zVCC0tAkpj0D9d4hmGhnL83kULDdBQavkTn0vBaP8NQB-jrQRuYGCsqWyRU5Uwhe-b2n9dACJfdHwJrEmXZcxD46tw)
 
-In JavaScript, the function to ask the user a question is called `prompt`. And just like the Scratch version, the prompt function returns a value that you can use in your program. While Scratch automatically creates the variable to hold the return value, in JavaScript, we have to explicitly declare and name the variable that will hold the value.
+In JavaScript, the function to ask the user a question is called `prompt`. And just like the Snap! version, the prompt function returns a value that you can use in your program. While Snap! automatically creates the variable to hold the return value, in JavaScript, we have to explicitly declare and name the variable that will hold the value.
 
 ```javascript
 const answer = prompt("What's your name?");
