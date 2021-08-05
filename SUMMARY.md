@@ -24,13 +24,20 @@
     * [Brick Wall](cs-fundamentals-1/larger-tasks/brick-wall.md)
     * [Brick Wall - Other Source](cs-fundamentals-1/larger-tasks/lab-build-a-wall.md)
 
+## Objects
+
+---
+
+* [Basic vs Complex Data](objects-1.md)
+* [JavaScript Built-in Objects](javascript-built-in-objects.md)
+* [Web Browser Objects](web-browser-objects.md)
+
 ## JavaScript Intro <a id="javascript-intro-1"></a>
 
 ---
 
 * [JavaScript Intro](javascript-intro/README.md)
   * [Including JavaScript](javascript-intro/including-javascript.md)
-  * [Objects](javascript-intro/objects.md)
   * [DOM](javascript-intro/dom.md)
   * [Manipulating HTML Documents](javascript-intro/manipulating-html-documents.md)
   * [Your First JavaScript](javascript-intro/your-first-javascript.md)
