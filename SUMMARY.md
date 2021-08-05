@@ -39,7 +39,6 @@
 * [JavaScript Intro](javascript-intro/README.md)
   * [Including JavaScript](javascript-intro/including-javascript.md)
   * [DOM](javascript-intro/dom.md)
-  * [Manipulating HTML Documents](javascript-intro/manipulating-html-documents.md)
   * [Your First JavaScript](javascript-intro/your-first-javascript.md)
   * [Loops](javascript-intro/loops.md)
   * [Variables](javascript-intro/variables.md)
