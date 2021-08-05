@@ -10,7 +10,7 @@ There are two categories of Comparison Operators: relational and equality.
 
 Snap does not have a built-in relational operator for `>=` or `<=`. When we were working in Snap!, we built a custom predicate block for `>=`.
 
-![](../.gitbook/assets/image%20%2897%29.png)
+![](../.gitbook/assets/image%20%2898%29.png)
 
 ```javascript
 console.log(3>2);  // true
@@ -44,7 +44,7 @@ console.log(0 === false);   // false
 
 The “==” operator compares two values and if they are loosely equal \(**coercion and value**\) it returns true, otherwise false.
 
-![](../.gitbook/assets/image%20%28102%29.png)
+![](../.gitbook/assets/image%20%28103%29.png)
 
 Any two values that pass the strict equality test will pass the loose equality test. If they are not the same type, then an attempt will be made to coerce the type of one value to the type of the other and then the two values will be compared. 
 

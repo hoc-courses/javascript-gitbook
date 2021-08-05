@@ -16,7 +16,7 @@ Writing/copying and pasting the same code or logic again and again.
 
 Let's start out with a simple example. We want to draw a square. Here is an algorithm for drawing a square.
 
-![](../.gitbook/assets/image%20%28123%29.png)
+![](../.gitbook/assets/image%20%28124%29.png)
 
 Now let's draw a series of squares.
 

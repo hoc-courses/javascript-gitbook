@@ -2,7 +2,7 @@
 
 ## Looping Forever
 
-![](../.gitbook/assets/image%20%28137%29.png)
+![](../.gitbook/assets/image%20%28138%29.png)
 
 There isn't a direct equivalent of the Snap! forever loop in JavaScript, but the while loop is pretty close. 
 
