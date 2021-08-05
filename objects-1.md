@@ -6,7 +6,7 @@ In most programming languages there are three basic data types: strings \(text\)
 
 For example, in our draw polygon block we created earlier, we store two pieces of data about a shape: the number of sides and the length of each side.
 
-![](.gitbook/assets/image%20%28147%29.png)
+![](.gitbook/assets/image%20%28148%29.png)
 
 This was a simple script, and those two variables were all that was needed to accomplish the task of drawing a polygon. But what happens as the complexity of what we are building increases?  Computer applications are complex and need to model processes that involve real world objects, such as movies, products, shopping carts, users, hotels, cars, family trees, etc... The list is endless. How do we represent the data we need to store for these more complex objects?
 
