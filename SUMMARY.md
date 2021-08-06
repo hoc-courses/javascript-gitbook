@@ -1,6 +1,11 @@
 # Table of contents
 
 * [Intro to Programming](README.md)
+
+## CS Fundamentals
+
+---
+
 * [CS Fundamentals w/Snap!](cs-fundamentals-1/README.md)
   * [Harvard CS50 Intro](cs-fundamentals-1/harvard-cs50-intro.md)
   * [Snap! Introduction](cs-fundamentals-1/snap-introduction.md)
@@ -44,7 +49,6 @@
 
 * [JavaScript Intro](javascript-intro/README.md)
   * [Including JavaScript](javascript-intro/including-javascript.md)
-  * [DOM](javascript-intro/dom.md)
   * [Your First JavaScript](javascript-intro/your-first-javascript.md)
   * [Loops](javascript-intro/loops.md)
   * [Variables](javascript-intro/variables.md)
@@ -52,6 +56,7 @@
   * [Logical Operators](javascript-intro/logical-operators.md)
   * [Conditionals](javascript-intro/conditionals.md)
   * [Functions](javascript-intro/untitled-1.md)
+  * [Anonymous Functions](javascript-intro/anonymous-functions.md)
   * [Data Types](javascript-intro/data-types.md)
   * [Events](javascript-intro/events.md)
 * [TODO](todo.md)

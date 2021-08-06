@@ -75,3 +75,11 @@ const element = document.querySelector("h1");
 element.style.color = 'red';
 ```
 
+
+
+### Resources
+
+{% embed url="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model" %}
+
+
+
