@@ -2,7 +2,7 @@
 
 Beyond those generic built-in objects provide by the language, in the context of web applications, the web browser has its own domain-specific objects.
 
-![https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side\_web\_APIs/Manipulating\_documents](.gitbook/assets/image%20%28152%29.png)
+![https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side\_web\_APIs/Manipulating\_documents](../.gitbook/assets/image%20%28152%29.png)
 
 ## Window Object
 
@@ -12,7 +12,7 @@ Using properties/methods available on this object you can do things like return 
 
 It is also where you can access each of the other top-level objects, such as the history, document, location. 
 
-![](.gitbook/assets/image%20%28148%29.png)
+![](../.gitbook/assets/image%20%28148%29.png)
 
 #### Data/Properties
 

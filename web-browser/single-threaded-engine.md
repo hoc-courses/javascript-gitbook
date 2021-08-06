@@ -1,4 +1,4 @@
-# Web Browser Event Loop
+# Asynchronous Web Events
 
 JavaScript code execution is synchronous, meaning it cannot be interrupted. The JavaScript Engine will execute the instructions within a script from top to bottom, line by line, all the way until the end.
 

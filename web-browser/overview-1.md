@@ -1,4 +1,4 @@
-# Overview
+# Document Object Model \(DOM\)
 
 ## Loading the DOM
 

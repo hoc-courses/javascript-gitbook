@@ -30,16 +30,13 @@
 
 * [Basic vs Complex Data](objects-1.md)
 * [JavaScript Built-in Objects](javascript-built-in-objects.md)
-* [Web Browser Objects](web-browser-objects.md)
 
-## DOM
+## Web Browser
 
-* [Overview](dom/overview.md)
-
-## JavaScript Runtime
-
-* [Overview](javascript-runtime/overview.md)
-* [Web Browser Event Loop](javascript-runtime/single-threaded-engine.md)
+* [Web Browser Objects](web-browser/web-browser-objects.md)
+* [Document Object Model \(DOM\)](web-browser/overview-1.md)
+* [JavaScript Runtime Environment](web-browser/overview.md)
+* [Asynchronous Web Events](web-browser/single-threaded-engine.md)
 
 ## JavaScript Intro <a id="javascript-intro-1"></a>
 
