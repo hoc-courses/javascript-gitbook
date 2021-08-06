@@ -20,11 +20,11 @@ The DOM is represented in a tree that looks very much like HTML.
 
 {% embed url="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model" %}
 
-![](../.gitbook/assets/image%20%28146%29.png)
-
-![](../.gitbook/assets/image%20%28152%29.png)
+![](../.gitbook/assets/image%20%28147%29.png)
 
 ![](../.gitbook/assets/image%20%28155%29.png)
+
+![](../.gitbook/assets/image%20%28158%29.png)
 
 {% embed url="https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-developer-console" %}
 
