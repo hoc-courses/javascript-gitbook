@@ -24,7 +24,7 @@ The DOM is represented in a tree that looks very much like HTML.
 
 ![](../.gitbook/assets/image%20%28155%29.png)
 
-![](../.gitbook/assets/image%20%28158%29.png)
+![](../.gitbook/assets/image%20%28159%29.png)
 
 {% embed url="https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-developer-console" %}
 

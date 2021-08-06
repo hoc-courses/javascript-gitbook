@@ -39,7 +39,7 @@
 ## JavaScript Runtime
 
 * [Overview](javascript-runtime/overview.md)
-* [Single-threaded Engine](javascript-runtime/single-threaded-engine.md)
+* [Web Browser Event Loop](javascript-runtime/single-threaded-engine.md)
 
 ## JavaScript Intro <a id="javascript-intro-1"></a>
 
@@ -70,4 +70,6 @@
   * [Higher Order Functions](bjc/higher-order-functions.md)
   * [Swap Two List Values](bjc/swap-two-list-values.md)
 * [Algorithms](algorithms.md)
+* [javascripttutorial.net](https://www.javascripttutorial.net/)
+* [Code Your Future](https://codeyourfuture.github.io/syllabus-master/)
 
