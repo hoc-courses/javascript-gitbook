@@ -28,6 +28,7 @@
     * [Valid Date?](cs-fundamentals-1/larger-tasks/valid-date.md)
     * [Brick Wall](cs-fundamentals-1/larger-tasks/brick-wall.md)
     * [Brick Wall - Other Source](cs-fundamentals-1/larger-tasks/lab-build-a-wall.md)
+* [Algorithms](algorithms.md)
 
 ## Objects
 
@@ -59,7 +60,6 @@
   * [Anonymous Functions](javascript-intro/anonymous-functions.md)
   * [Data Types](javascript-intro/data-types.md)
   * [Events](javascript-intro/events.md)
-* [TODO](todo.md)
 * [BJC](bjc/README.md)
   * [Number List Lab](bjc/number-list-lab.md)
   * [Hangman Lab](bjc/hangman-lab.md)
@@ -71,7 +71,6 @@
   * [Introduction to Lists](bjc/introduction-to-lists.md)
   * [Higher Order Functions](bjc/higher-order-functions.md)
   * [Swap Two List Values](bjc/swap-two-list-values.md)
-* [Algorithms](algorithms.md)
 * [javascripttutorial.net](https://www.javascripttutorial.net/)
 * [Code Your Future](https://codeyourfuture.github.io/syllabus-master/)
 
