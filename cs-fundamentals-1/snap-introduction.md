@@ -98,5 +98,3 @@ Try to get comfortable with the blocks under the **Motion** tab and the **Pen** 
 
 ## 
 
-{% embed url="https://beautyjoy.github.io/bjc-r/cur/programming/loops/forever/forever-self-test.html?1&1&2&3&topic=berkeley\_bjc%2Fintro\_pair%2F1-introduction.topic&course=cs10\_sp19.html&novideo&noreading&noassignment" %}
-
