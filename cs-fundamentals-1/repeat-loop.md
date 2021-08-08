@@ -86,7 +86,7 @@ Make your own art. Explore a few different combinations of shape and color. Take
 
 ## Going Further
 
-To add some randomness to your drawings try using the [random reporter]() in your calls to your shape commands:
+To add some randomness to your drawings try using the [random reporter](random-block.md) in your calls to your shape commands:
 
 ![random polygons](https://github.com/hoc-labs/images/blob/main/random-polys.png?raw=true)
 
