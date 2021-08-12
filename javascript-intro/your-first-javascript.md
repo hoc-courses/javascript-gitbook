@@ -14,6 +14,12 @@ The console object is available to JavaScript code and provides methods for logg
 console.log("Hello");
 ```
 
+
+
+![](../.gitbook/assets/image%20%28164%29.png)
+
+![](../.gitbook/assets/image%20%28167%29.png)
+
 ### Exercise
 
 Add a script element to your html document and first add an embedded script to call the console.log method with some text;
@@ -25,6 +31,8 @@ Now, move your script code to an external script.js file.
 #### document object
 
 If you open Chrome Dev Tools/Console and type document you will get an object that represents the HTML document. 
+
+![](../.gitbook/assets/image%20%28170%29.png)
 
 The  document object is available to JavaScript code and is the entry into the DOM, which is the API that allows us to manipulate the HTML elements in the document.
 
@@ -38,11 +46,15 @@ document.body.style.backgroundColor = "red";
 
 After the statement has been executed, the HTML document will be modified to have added the background-color to the body element.
 
+![](../.gitbook/assets/image%20%28162%29.png)
+
 ### window object
 
 When JavaScript code is executed within a browser, the window object is the global object and represents the browser window. 
 
 The document and console object are actually not a global objects, but  properties of the window object. But, all properties of the global window object can be accessed directly.
+
+![](../.gitbook/assets/image%20%28160%29.png)
 
 ```markup
 /* this */
@@ -64,7 +76,11 @@ The statement is calling the alert method on the window object in order to displ
 </body>
 ```
 
+![](../.gitbook/assets/image%20%28169%29.png)
+
 **alert\(message\)** - shows a message to the user and waits for the user to click Ok.
+
+![](../.gitbook/assets/image%20%28161%29.png)
 
 ### window.prompt method
 
@@ -81,6 +97,10 @@ The **= symbol** is how you assign a value to a variable.
 ```javascript
 let color = window.prompt("What color should I set the background to?", "yellow");
 ```
+
+![](../.gitbook/assets/image%20%28166%29.png)
+
+![](../.gitbook/assets/image%20%28168%29.png)
 
 Use the value stored in the color variable to set the value of the body element's background color;
 
@@ -101,6 +121,8 @@ document.body.style.backgroundColor = color;
 window.alert("The color is: " + color);
 ```
 
+![](../.gitbook/assets/image%20%28163%29.png)
+
 Modify the script above to display the color before and after the change.
 
 ```javascript
@@ -111,6 +133,8 @@ window.alert("The color has been changed from " + colorBefore + " to " + color);
 ```
 
 ### window.confirm method
+
+![](../.gitbook/assets/image%20%28165%29.png)
 
 **confirm\(message\)** - shows a modal dialog with a message and waits for the user to click Ok or Cancel. The function will return true if the user clicks Ok, and false if the user clicks Cancel.
 

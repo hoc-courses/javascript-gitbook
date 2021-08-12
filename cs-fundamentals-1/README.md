@@ -1,2 +1,0 @@
-# CS Fundamentals w/Snap!
-
