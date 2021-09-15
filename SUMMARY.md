@@ -53,3 +53,7 @@
 
 * [Untitled](how-a-computer-works/untitled.md)
 
+## Further Learning Resources
+
+* [JavaScript & jQuery, Duckett](further-learning-resources/javascript-and-jquery-duckett.md)
+
