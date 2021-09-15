@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Intro to Programming](README.md)
-* [Algorithms](algorithms.md)
+* [Overview](README.md)
 
 ## Objects
 
@@ -21,6 +20,7 @@
 
 ---
 
+* [What is JavaScript?](what-is-javascript.md)
 * [JavaScript Intro](javascript-intro/README.md)
   * [Including JavaScript](javascript-intro/including-javascript.md)
   * [Your First JavaScript](javascript-intro/your-first-javascript.md)
@@ -47,4 +47,5 @@
 * [javascripttutorial.net](https://www.javascripttutorial.net/)
 * [Code Your Future](https://codeyourfuture.github.io/syllabus-master/)
 * [Hack Your Future](https://www.hackyourfuture.net/)
+* [Algorithms](algorithms.md)
 
