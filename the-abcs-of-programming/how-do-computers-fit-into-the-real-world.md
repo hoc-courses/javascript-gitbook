@@ -1,7 +1,5 @@
 # How do Computers Fit into the Real World?
 
-### HOW DO COMPUTERS FIT IN WITH THE WORLD AROUND THEM?
-
 #### COMPUTERS CREATE MODELS OF THE WORLD USING DATA
 
 Here is a model of a hotel, along with some model trees, model people, and model cars. To a human, it is clear what kind of real-world object each one represents.
@@ -75,13 +73,13 @@ Scripts often use different events to trigger different types of functionality.
 
 So a script will state which events the programmer wants to respond to, and what part of the script should be run when each of those events occur.
 
-**HOTEL OBJECT**
+**HOTEL OBJECT EVENTS**
 
-A hotel will regularly have bookings for rooms. Each time a room is reserved, an event called book can be used to trigger code that will increase the value of the bookings property. Likewise, a cancel event can trigger code that decreases the value of the bookings property.
+A hotel will regularly have bookings for rooms. Each time a room is reserved, an event called **book** can be used to trigger code that will increase the value of the bookings property. Likewise, a **cancel** event can trigger code that decreases the value of the bookings property.
 
-**CAR OBJECTS**
+**CAR OBJECT EVENTS**
 
-A driver will accelerate and brake throughout any car journey. An accelerate event can trigger code to increase the value of the currentSpeed property and a brake event can trigger code to decrease it. You will learn about the code that responds to the events and changes these properties on the next page.
+A driver will accelerate and brake throughout any car journey. An **accelerate event** can trigger code to increase the value of the `currentSpeed` property and a **brake event** can trigger code to decrease it. You will learn about the code that responds to the events and changes these properties on the next page.
 
 ![images](https://learning-oreilly-com.ezproxy.spl.org/api/v2/epubs/urn:orm:book:9781118531648/files/images/p031-001.jpg)
 
@@ -104,13 +102,13 @@ The code for a method can contain lots of instructions that together represent o
 
 When you use a method, you do not always need to know how it achieves its task; you just need to know how to ask the question and how to interpret any answers it gives you.
 
-**HOTEL OBJECT**
+**HOTEL OBJECT METHODS**
 
 Hotels will commonly be asked if any rooms are free. To answer this question, a method can be written that subtracts the number of bookings from the total number of rooms. Methods can also be used to increase and decrease the value of the bookings property when rooms are booked or cancelled.
 
-**CAR OBJECTS**
+**CAR OBJECT METHODS**
 
-The value of the `currentSpeed` property needs to go up and down as the driver accelerates and brakes. The code to increase or decrease the value of the `currentSpeed` property could be written in a method, and that method could be called `changeSpeed()`.
+The value of the `currentSpeed` property needs to go up and down as the driver accelerates and brakes. The code to increase or decrease the value of the `currentSpeed` property could be written in a method, and that method could be called **`changeSpeed`**.
 
 ![images](https://learning-oreilly-com.ezproxy.spl.org/api/v2/epubs/urn:orm:book:9781118531648/files/images/p033-001.jpg)
 
@@ -136,6 +134,8 @@ Computers use data to create models of things in the real world. The events, met
 
 3. The value of the `currentSpeed` property reflects how fast the car is traveling.
 
+#### 
+
 #### WEB BROWSERS ARE PROGRAMS BUILT USING OBJECTS
 
 You have seen how data can be used to create a model of a hotel or a car. Web browsers create similar models of the web page they are showing and of the browser window that the page is being shown in.
@@ -152,7 +152,7 @@ The browser represents each window or tab using a window object. The location pr
 
 The current web page loaded into each window is modelled using a document object.
 
-The title property of the document object tells you what is between the opening &lt;title&gt; and closing &lt;/title&gt; tag for that web page, and the `lastModified` property of the document object tells you the date this page was last updated.
+The title property of the document object tells you what is between the opening `<title>` and closing `</title>` tag for that web page, and the `lastModified` property of the document object tells you the date this page was last updated.
 
 #### THE DOCUMENT OBJECT REPRESENTS AN HTML PAGE
 
@@ -181,6 +181,8 @@ So you will be learning how to work with this object. In fact, the document obje
 
 ![images](https://learning-oreilly-com.ezproxy.spl.org/api/v2/epubs/urn:orm:book:9781118531648/files/images/p039-001.jpg)
 
+#### 
+
 #### HOW A BROWSER SEES A WEB PAGE
 
 In order to understand how you can change the content of an HTML page using JavaScript, you need to know how a browser interprets the HTML code and applies styling to it.
@@ -189,7 +191,23 @@ In order to understand how you can change the content of an HTML page using Java
 
 Each page on a website can be seen as a separate **document**. So, the web consists of many sites, each made up of one or more documents.
 
-**2: CREATE A MODEL OF THE PAGE AND STORE IT IN MEMORY**
+```markup
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Constructive &amp; Co.</title>
+    <link rel=“stylesheet” href=“css/styles.css” />
+  </head>
+  <body>
+    <h1>Constructive &amp; Co.</h1>
+    <p>For all orders and inquiries please call
+      <em>555-3344</em>
+    </p>
+  </body>
+</html>
+```
+
+**2: CREATES A IN-MEMORY MODEL OF THE PAGE**
 
 The model shown below is a representation of one very basic page. Its structure is reminiscent of a family tree. At the top of the model is a **document object**, which represents the whole document.
 
@@ -203,40 +221,26 @@ If there is no CSS, the rendering engine will apply default styles to HTML eleme
 
 When the browser receives CSS rules, the rendering engine processes them and applies each rule to its corresponding elements. This is how the browser positions the elements in the correct place, with the right colors, fonts, and so on.
 
-All major browsers use a JavaScript interpreter to translate your instructions \(in JavaScript\) into instructions the computer can follow.
+![images](https://learning-oreilly-com.ezproxy.spl.org/api/v2/epubs/urn:orm:book:9781118531648/files/images/p041-002.jpg)
 
-When you use JavaScript in the browser, there is a part of the browser that is called an **interpreter** \(or scripting engine\).
+**4: USE JAVASCRIPT TO INTERACT WITH THE IN-MEMORY PAGE MODEL**
 
-The interpreter takes your instructions \(in JavaScript\) and translates them into instructions the browser can use to achieve the tasks you want it to perform.
+When you use JavaScript in the browser, there is a part of the browser that is called an JavaScript Engine.
+
+When the browser encounters a script element, it passes the JavaScript code to the JavaScript Engine to process. The JavaScript Engine will read each line of code
 
 In an **interpreted programming language**, like JavaScript, each line of code is translated one-by-one as the script is run.
-
-1. The browser receives an HTML page.
-2. It creates a model of the page and stores it in memory.
-3. It shows the page on screen using a rendering engine.
-
-```text
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Constructive &amp; Co.</title>
-    <link rel=“stylesheet” href=“css/c01.css” />
-  </head>
-  <body>
-    <h1>Constructive &amp; Co.</h1>
-    <p>For all orders and inquiries please call
-      <em>555-3344</em></p>
-  </body>
-</html>
-```
-
-![images](https://learning-oreilly-com.ezproxy.spl.org/api/v2/epubs/urn:orm:book:9781118531648/files/images/p041-002.jpg)
 
 ### SUMMARY
 
 * Computers create models of the world using data.
-* The models use objects to represent physical things. Objects can have: properties that tell us about the object; methods that perform tasks using the properties of that object; events which are triggered when a user interacts with the computer.
+
+  The models use objects to represent physical things. Objects can have: 
+
+  * **properties** that tell us about the object
+  * **methods** that perform tasks using the properties of that object
+  * **events** which are triggered when a user interacts with the computer.
+
 * Programmers can write code to say “When this event occurs, run that code.”
 * Web browsers use HTML markup to create a model of the web page. Each element creates its own node \(which is a kind of object\).
 * To make web pages interactive, you write code that uses the browser's model of the web page.

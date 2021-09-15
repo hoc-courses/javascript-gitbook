@@ -1,8 +1,8 @@
-# Basic vs Complex Data
+# Storing Data
 
 ## Basic Data Types
 
-In most programming languages there are three basic data types: strings \(text\), numbers \(integers and decimal\) and boolean.  But when your program needs to store data, it must create a variable to store data based on one of these basic types.
+In most programming languages there are three basic data types: **strings** \(text\), **numbers** \(integers and decimal\) and **boolean** \(true/false\).  When your program needs to store data, it must create a variable to store data based on one of these basic types.
 
 For example, in our draw polygon block we created earlier, we store two pieces of data about a shape: the number of sides and the length of each side.
 
@@ -16,8 +16,8 @@ We build objects \(composite data types\) to model the real world things that we
 
 In addition to storing data associated with these objects we're modelling, we typically also want to associate functionality with the object.  So an object has two components:
 
-* properties: data
-* methods: functionality
+* **properties**: data
+* **methods**: functionality
 
 #### A real world example: the Snap! Pen object
 

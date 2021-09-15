@@ -6,7 +6,7 @@
 
 ---
 
-* [Basic vs Complex Data](objects-1.md)
+* [Storing Data](objects-1.md)
 * [JavaScript Built-in Objects](javascript-built-in-objects.md)
 
 ## Web Browser
@@ -23,8 +23,6 @@
 * [The ABC's of Programming](the-abcs-of-programming/README.md)
   * [What is a Script?](the-abcs-of-programming/what-is-a-script.md)
   * [How do Computers Fit into the Real World?](the-abcs-of-programming/how-do-computers-fit-into-the-real-world.md)
-  * [How do I Write a Script?](the-abcs-of-programming/how-do-i-write-a-script.md)
-* [What is JavaScript?](what-is-javascript.md)
 * [JavaScript Intro](javascript-intro/README.md)
   * [Including JavaScript](javascript-intro/including-javascript.md)
   * [Your First JavaScript](javascript-intro/your-first-javascript.md)

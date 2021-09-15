@@ -9,9 +9,15 @@ The `<script>` element can either contain scripts directly \(internal\) or link 
 **Internal** - you can just put the script inside the `<script>` element.
 
 ```markup
-<script>
-    alert("Hello World");
-</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Site</title>
+  </head>
+  <body>
+    <script>document.write('Hello World!')</script>
+  </body>
+</html>
 ```
 
 **External** - an external JavaScript resource is a text file with a `.js` extension, just like an external CSS resource with a `.css` extension. 
@@ -22,10 +28,10 @@ The `<script>` element can either contain scripts directly \(internal\) or link 
 
 When the web browser is loading a web page, and encounters a `<script>` element, it will pass the script off to a special component called the JavaScript Engine, which will then read and execute the code line by line.
 
-**Embedded** - there is one other way you will see JavaScript code: directly within an HTML element as part of an event handler.
+**Embedded Event Handler** - there is one other way you will see JavaScript code: directly within an HTML element as part of an event handler.
 
 ```markup
-<button onclick="alert('Hello World')">Click me</button>
+<button onclick="document.write('Hello World!')">Click me</button>
 ```
 
 ### 
