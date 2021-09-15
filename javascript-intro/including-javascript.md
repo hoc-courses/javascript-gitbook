@@ -6,8 +6,6 @@ The JavaScript code you write is known as scripts. Scripts can be included in yo
 
 The `<script>` element can either contain scripts directly \(internal\) or link to an external resource by using the `src` attribute \(external\). 
 
-
-
 **Internal** - you can just put the script inside the `<script>` element.
 
 ```markup
@@ -16,8 +14,6 @@ The `<script>` element can either contain scripts directly \(internal\) or link 
 </script>
 ```
 
-\*\*\*\*
-
 **External** - an external JavaScript resource is a text file with a `.js` extension, just like an external CSS resource with a `.css` extension. 
 
 ```markup
@@ -25,8 +21,6 @@ The `<script>` element can either contain scripts directly \(internal\) or link 
 ```
 
 When the web browser is loading a web page, and encounters a `<script>` element, it will pass the script off to a special component called the JavaScript Engine, which will then read and execute the code line by line.
-
-\*\*\*\*
 
 **Embedded** - there is one other way you will see JavaScript code: directly within an HTML element as part of an event handler.
 

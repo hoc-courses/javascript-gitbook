@@ -91,7 +91,7 @@ Just like learning any new language, you need to get to grips with the:
 
 Along with learning the language itself, if you are new to programming, you will also need to learn how a computer achieves different types of goals using a **programmatic** approach to problem-solving.
 
-Computers are very logical and obedient. They need to be told every detail of what they are expected to do, and they will do it without question. Because they need different types of instructions compared to you or I, everyone who learns to program makes lots of mistakes at the start. Don't be disheartened; in [Chapter 10](https://learning-oreilly-com.ezproxy.spl.org/library/view/javascript-and-jquery/9781118531648/15_chapter10.html#chap10) you will see several ways to discover what might have gone wrong - programmers call this **debugging**.
+Computers are very logical and obedient. They need to be told every detail of what they are expected to do, and they will do it without question. Because they need different types of instructions compared to you or I, everyone who learns to program makes lots of mistakes at the start. 
 
 You need to learn to “think” like a computer because they solve tasks in different ways than you or I might approach them.
 
@@ -137,8 +137,6 @@ Often scripts will need to perform different tasks in different situations. You 
 ![images](https://learning-oreilly-com.ezproxy.spl.org/api/v2/epubs/urn:orm:book:9781118531648/files/images/p023-001.jpg)
 
 Arrows show how the script moves from one task to the next. The different shapes represent different types of tasks. In some places there are decisions which cause the code to follow different paths.
-
-You will learn how to turn this example into code in Chapter 2. You will also see many more examples of different flowcharts throughout the book, and you will meet code that helps you deal with each of these types of situations.
 
 Some experienced programmers use more complex diagram styles that are specifically designed to represent code - however, they have a steeper learning curve. These informal flowcharts will help you understand how scripts work while you are in the process of learning the language.
 
