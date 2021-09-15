@@ -49,3 +49,7 @@
 * [Hack Your Future](https://www.hackyourfuture.net/)
 * [Algorithms](algorithms.md)
 
+## How a Computer Works
+
+* [Untitled](how-a-computer-works/untitled.md)
+
