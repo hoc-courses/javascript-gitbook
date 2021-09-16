@@ -1,4 +1,4 @@
-# The ABC's of Programming
+# Jon Duckett Intro
 
 _This is extracted from Jon Duckett's book, JavaScript & jQuery, Chapter 1._
 
