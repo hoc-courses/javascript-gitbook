@@ -6,8 +6,8 @@
 
 ---
 
+* [Programming](programming.md)
 * [Jon Duckett Intro](the-abcs-of-programming/README.md)
-  * [What is a Script?](the-abcs-of-programming/what-is-a-script.md)
   * [Modelling Real World Objects](the-abcs-of-programming/how-do-computers-fit-into-the-real-world.md)
 * [Storing Data](objects-1.md)
 
